@@ -4,7 +4,6 @@ class EquityParser:
     def parse(self, html: str) -> list[dict]:
         soup = BeautifulSoup(html, "lxml")
         rows = soup.select("table tbody tr")
-
         results = []
         for row in rows:
             cols = row.find_all("td")
@@ -12,9 +11,8 @@ class EquityParser:
                 continue
 
             results.append({
-                "symbol": cols[0].get_text(strip=True),
-                "name": cols[1].get_text(strip=True),
-                "price": cols[2].get_text(strip=True)
+                "symbol": cols[1].get_text(strip=True),
+                "name": cols[2].get_text(strip=True),
+                "price": cols[4].get_text(strip=True)
             })
-
         return results
