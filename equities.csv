@@ -1,26 +1,26 @@
 symbol,name,price
-NVDA,NVIDIA Corporation,182.66
-AAPL,Apple Inc.,259.36
-GOOG,Alphabet Inc.,306.56
-GGOOGL,Alphabet Inc.,306.23
-MSFT,Microsoft Corporation,402.79
-AMZN,"Amazon.com, Inc.",197.92
-TTSM,Taiwan Semiconductor Manufacturing Company Limited,362.17
-MMETA,"Meta Platforms, Inc.",643.69
-AVGO,Broadcom Inc.,328.33
-TSLA,"Tesla, Inc.",413.68
-BBRK-A,Berkshire Hathaway Inc.,"745,611.81"
-BBRK-B,Berkshire Hathaway Inc.,497.00
-WMT,Walmart Inc.,131.88
-JJPM,JPMorgan Chase & Co.,301.49
-LLLY,Eli Lilly and Company,"1,057.38"
+NVDA,NVIDIA Corporation,183.54
+AAPL,Apple Inc.,259.61
+GOOG,Alphabet Inc.,306.49
+GGOOGL,Alphabet Inc.,306.01
+MSFT,Microsoft Corporation,400.46
+AMZN,"Amazon.com, Inc.",197.90
+TTSM,Taiwan Semiconductor Manufacturing Company Limited,368.38
+MMETA,"Meta Platforms, Inc.",645.74
+AVGO,Broadcom Inc.,328.37
+TSLA,"Tesla, Inc.",414.51
+BBRK-A,Berkshire Hathaway Inc.,"746,584.12"
+BBRK-B,Berkshire Hathaway Inc.,497.83
+WMT,Walmart Inc.,133.30
+JJPM,JPMorgan Chase & Co.,301.10
+LLLY,Eli Lilly and Company,"1,051.41"
 TTCTZF,Tencent Holdings Limited,70.61
-XXOM,Exxon Mobil Corporation,149.88
-V,Visa Inc.,320.93
-TTCEHY,Tencent Holdings Limited,67.50
-JJNJ,Johnson & Johnson,243.59
-AASML,ASML Holding N.V.,"1,415.16"
-AASMLF,ASML Holding N.V.,"1,402.96"
-BAC,Bank of America Corporation,52.08
-MA,Mastercard Incorporated,524.17
-ORCL,Oracle Corporation,157.60
+XXOM,Exxon Mobil Corporation,149.23
+TTCEHY,Tencent Holdings Limited,67.95
+V,Visa Inc.,314.99
+JJNJ,Johnson & Johnson,243.80
+AASML,ASML Holding N.V.,"1,427.94"
+AASMLF,ASML Holding N.V.,"1,424.91"
+BAC,Bank of America Corporation,52.27
+MA,Mastercard Incorporated,517.08
+MMU,"Micron Technology, Inc.",406.47

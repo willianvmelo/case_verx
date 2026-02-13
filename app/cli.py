@@ -1,17 +1,16 @@
-from app.selenium_client import SeleniumClient
-from app.parser import EquityParser
-from app.csv_writer import CsvWriter
-def main():
-    selenium_client = SeleniumClient()
-    selenium_client.open("https://finance.yahoo.com/research-hub/screener/equity/")
-    html = selenium_client.get_page_source()
-    parser = EquityParser()
-    data = parser.parse(html)
+import argparse
+from app.crawler_service import CrawlerService
 
-    print(data)
-    writer = CsvWriter()
-    output = "equities.csv"
-    writer.write(data, output)
-    selenium_client.close()
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--region", required=True)
+    parser.add_argument("--output", default="equities.csv")
+    args = parser.parse_args()
+
+    service = CrawlerService()
+    total = service.run(args.region, args.output)
+
+    print(f"{total} ativos coletados")
+
 if __name__ == "__main__":
     main()
