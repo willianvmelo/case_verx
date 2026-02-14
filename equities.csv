@@ -1,26 +1,1901 @@
 symbol,name,price
-EEEE.AT,Coca-Cola HBC AG,53.50
-EEUROB.AT,Eurobank S.A.,3.96
-EETE.AT,National Bank of Greece S.A.,14.56
-TTPEIR.AT,Piraeus Bank S.A.,8.29
-AALPHA.AT,Alpha Bank S.A.,3.87
-PPPC.AT,Public Power Corporation S.A.,19.04
-HHTO.AT,Hellenic Telecommunications Organization S.A.,16.99
-OOPAP.AT,Organization of Football Prognostics S.A.,16.61
-MMTLN.AT,Metlen Energy & Metals PLC,35.88
-CCENER.AT,Cenergy Holdings SA,19.42
-BBOCHGR.AT,Bank of Cyprus Holdings Plc,9.26
-TTITC.AT,Titan S.A.,52.40
-MMOH.AT,Motor Oil (Hellas) Corinth Refineries S.A.,35.52
-GGEKTERNA.AT,Gek Terna S.A.,35.16
-AAIA.AT,ATHENS INTERNATIONAL AIRPORT,11.23
-BBELA.AT,Jumbo S.A.,25.00
-VVIO.AT,Viohalco S.A.,12.74
-EELPE.AT,HELLENiQ ENERGY Holdings S.A.,9.02
-AAKTR.AT,Aktor Societe Anonyme Holding Company Technical and Energy Projects,11.18
-CCREDIA.AT,CrediaBank S.A.,1.32
-OOPTIMA.AT,Optima bank S.A.,9.46
-BBYLOT.AT,Bally's Intralot S.A.,0.96
-EELHA.AT,Elvalhalcor Hellenic Copper and Aluminium Industry S.A.,4.68
-PPRODEA.AT,Prodea Real Estate Investment Company Société Anonyme,5.65
-AAEGN.AT,Aegean Airlines S.A.,14.66
+NNVDC34.SA,NVIDIA Corporation,19.95
+AAAPL34.SA,Apple Inc.,66.81
+GGOGL34.SA,Alphabet Inc.,132.93
+GGOGL35.SA,Alphabet Inc.,132.82
+MMSFT34.SA,Microsoft Corporation,87.10
+AAMZO34.SA,"Amazon.com, Inc.",52.02
+TTSMC34.SA,Taiwan Semiconductor Manufacturing Company Limited,239.20
+MM1TA34.SA,"Meta Platforms, Inc.",119.14
+TTSLA34.SA,"Tesla, Inc.",67.80
+AAVGO34.SA,Broadcom Inc.,24.35
+BBERK34.SA,Berkshire Hathaway Inc.,130.49
+WWALM34.SA,Walmart Inc.,43.61
+LLILY34.SA,Eli Lilly and Company,181.30
+AA1ZN34.SA,AstraZeneca PLC,179.53
+EEXXO34.SA,Exxon Mobil Corporation,97.30
+VVISA34.SA,Visa Inc.,82.35
+JJNJB34.SA,Johnson & Johnson,84.49
+AASML34.SA,ASML Holding N.V.,135.36
+MMSCD34.SA,Mastercard Incorporated,87.51
+MMUTC34.SA,"Micron Technology, Inc.",359.00
+OORCL34.SA,Oracle Corporation,140.15
+CCOWC34.SA,Costco Wholesale Corporation,130.21
+AABBV34.SA,AbbVie Inc.,74.24
+HHOME34.SA,"The Home Depot, Inc.",73.22
+BBABA34.SA,Alibaba Group Holding Limited,28.92
+CCATP34.SA,Caterpillar Inc.,254.51
+PPGCO34.SA,The Procter & Gamble Company,58.70
+CCHVX34.SA,Chevron Corporation,96.06
+AA1MD34.SA,"Advanced Micro Devices, Inc.",135.20
+GGEOO34.SA,General Electric Company,"1,650.00"
+CCOCA34.SA,The Coca-Cola Company,67.99
+NNFLX34.SA,"Netflix, Inc.",8.06
+TTMCO34.SA,Toyota Motor Corporation,80.89
+PP2LT34.SA,Palantir Technologies Inc.,234.27
+NN1VS34.SA,Novartis AG,85.10
+CCSCO34.SA,"Cisco Systems, Inc.",80.30
+MMRCK34.SA,"Merck & Co., Inc.",79.48
+LL1RC34.SA,Lam Research Corporation,27.87
+PPHMO34.SA,Philip Morris International Inc.,491.47
+HH1SB34.SA,HSBC Holdings plc,111.09
+AA1MT34.SA,"Applied Materials, Inc.",184.79
+WWFCO34.SA,Wells Fargo & Company,113.81
+RRYTT34.SA,RTX Corporation,173.51
+UUNHH34.SA,UnitedHealth Group Incorporated,21.76
+TT1MU34.SA,"T-Mobile US, Inc.",570.15
+IIBMB34.SA,International Business Machines Corporation,"1,372.25"
+MMCDC34.SA,McDonald's Corporation,87.80
+SSAPP34.SA,SAP SE,"1,072.00"
+AAXPB34.SA,American Express Company,176.75
+IITLC34.SA,Intel Corporation,40.48
+PPEPB34.SA,"PepsiCo, Inc.",57.83
+MM1UF34.SA,"Mitsubishi UFJ Financial Group, Inc.",102.76
+NN1VO34.SA,Novo Nordisk A/S,32.22
+GG2EV34.SA,GE VERNOVA  DRN,210.21
+JJPMC34.SA,JPMorgan Chase & Co.,158.93
+TTEXA34.SA,Texas Instruments Incorporated,78.66
+VVERZ34.SA,Verizon Communications Inc.,42.55
+AABTT34.SA,Abbott Laboratories,48.85
+AATTB34.SA,AT&T Inc.,49.70
+AAMGN34.SA,Amgen Inc.,68.77
+RRIOT34.SA,Rio Tinto Group,517.00
+NNEXT34.SA,"NextEra Energy, Inc.",122.40
+BBOEI34.SA,The Boeing Company,"1,268.75"
+TTMOS34.SA,Thermo Fisher Scientific Inc.,55.57
+GGILD34.SA,"Gilead Sciences, Inc.",396.35
+KK1LA34.SA,KLA Corporation,"1,870.00"
+DDISB34.SA,The Walt Disney Company,36.75
+SSSFO34.SA,"Salesforce, Inc.",44.81
+AA1PH34.SA,Amphenol Corporation,381.51
+AA1NE34.SA,"Arista Networks, Inc.",183.00
+BBCSA34.SA,"Banco Santander, S.A.",61.79
+AA1DI34.SA,"Analog Devices, Inc.",883.48
+II1SR34.SA,"Intuitive Surgical, Inc.",125.00
+SSCHW34.SA,The Charles Schwab Corporation,60.90
+DDEEC34.SA,Deere & Company,105.89
+HH1DB34.SA,HDFC Bank Limited,34.02
+BBLAK34.SA,"BlackRock, Inc.",84.25
+UULEV34.SA,Unilever PLC,387.60
+PPFIZ34.SA,Pfizer Inc.,36.01
+AABUD34.SA,Anheuser-Busch InBev SA/NV,70.00
+EE1TN34.SA,Eaton Corporation plc,144.75
+HHONB34.SA,Honeywell International Inc.,"1,245.74"
+SS1MF34.SA,"Sumitomo Mitsui Financial Group, Inc.",124.32
+LLMTB34.SA,Lockheed Martin Corporation,"3,400.85"
+QQCOM34.SA,QUALCOMM Incorporated,61.07
+DDHER34.SA,Danaher Corporation,39.50
+UUPAC34.SA,Union Pacific Corporation,326.37
+UU1BE34.SA,"Uber Technologies, Inc.",92.48
+SS2HO34.SA,Shopify Inc.,4.91
+WW1EL34.SA,Welltower Inc.,551.30
+BB1PP34.SA,BP p.l.c.,49.50
+PP1DD34.SA,PDD Holdings Inc.,52.24
+AACNB34.SA,Accenture plc,"1,165.00"
+NN1EM34.SA,Newmont Corporation,659.00
+SSNEC34.SA,Sony Group Corporation,121.01
+MMDTC34.SA,Medtronic plc,262.00
+SS1YK34.SA,Stryker Corporation,93.45
+BBOAC34.SA,Bank of America Corporation,68.65
+BBKNG34.SA,Booking Holdings Inc.,123.60
+UUBSG34.SA,UBS Group AG,218.96
+BBMYB34.SA,Bristol-Myers Squibb Company,317.74
+CCOPH34.SA,ConocoPhillips,46.50
+BB1TI34.SA,British American Tobacco p.l.c.,62.29
+PP1LD34.SA,"Prologis, Inc.",60.45
+BBILB34.SA,"Banco Bilbao Vizcaya Argentaria, S.A.",118.16
+VVRTX34.SA,Vertex Pharmaceuticals Incorporated,649.65
+CC1BL34.SA,Chubb Limited,422.01
+IIBKR34.SA,IB GROUP    DRN,24.40
+PP1HC34.SA,Parker-Hannifin Corporation,"1,299.35"
+HH1CA34.SA,"HCA Healthcare, Inc.",142.79
+SSPGI34.SA,S&P Global Inc.,59.19
+GGSGI34.SA,"The Goldman Sachs Group, Inc.",159.89
+PP1GR34.SA,The Progressive Corporation,531.38
+II1BN34.SA,ICICI Bank Limited,164.80
+GG1SK34.SA,GSK plc,61.09
+CCMCS34.SA,Comcast Corporation,32.91
+MM1CK34.SA,McKesson Corporation,"1,221.00"
+GG1LW34.SA,Corning Incorporated,697.61
+NN1OW34.SA,"ServiceNow, Inc.",11.10
+BB1SX34.SA,Boston Scientific Corporation,392.92
+IINTU34.SA,Intuit Inc.,47.45
+AADBE34.SA,Adobe Inc.,27.54
+PPRXB31.SA,PROSUS N.V. DR1,26.18
+CCHME34.SA,CME Group Inc.,396.24
+II1RP34.SA,Trane Technologies plc,"1,219.12"
+SSBUB34.SA,Starbucks Corporation,490.90
+MMOOO34.SA,"Altria Group, Inc.",335.00
+BB1AM34.SA,Brookfield Corporation,61.99
+MMELI34.SA,"MercadoLibre, Inc.",86.95
+NNOCG34.SA,Northrop Grumman Corporation,732.96
+IITUB4.SA,Itaú Unibanco Holding S.A.,47.77
+AARNC34.SA,Howmet Aerospace Inc.,"1,289.67"
+CCVSH34.SA,CVS Health Corporation,40.80
+UUPSS34.SA,"United Parcel Service, Inc.",37.81
+PPETR3.SA,Petróleo Brasileiro S.A. - Petrobras,39.70
+WW1DC34.SA,Western Digital Corporation,"1,472.00"
+DDUKB34.SA,Duke Energy Corporation,645.94
+PPNCS34.SA,"The PNC Financial Services Group, Inc.",615.48
+PPETR4.SA,Petróleo Brasileiro S.A. - Petrobras,36.89
+MM1TT34.SA,"Marriott International, Inc.",466.90
+NNIKE34.SA,"NIKE, Inc.",33.38
+SS1PO34.SA,Spotify Technology S.A.,599.00
+GGDBR34.SA,General Dynamics Corporation,"1,822.72"
+WW1MC34.SA,"Waste Management, Inc.",608.00
+SS1TX34.SA,Seagate Technology Holdings plc,"2,219.75"
+IITUB3.SA,Itaú Unibanco Holding S.A.,44.34
+EEQIX34.SA,"Equinix, Inc.",62.17
+FFCXO34.SA,Freeport-McMoRan Inc.,112.00
+SS1HW34.SA,The Sherwin-Williams Company,192.47
+NN1GG34.SA,National Grid plc,80.20
+UUSBC34.SA,U.S. Bancorp,75.69
+MMMMC34.SA,3M Company,222.33
+FFDXB34.SA,FedEx Corporation,"1,962.81"
+TT1OW34.SA,American Tower Corporation,41.64
+RR1CL34.SA,Royal Caribbean Cruises Ltd.,836.94
+WW1MB34.SA,"The Williams Companies, Inc.",371.68
+TTXSA34.SA,Ternium S.A.,230.22
+BB1CS34.SA,Barclays PLC,131.00
+AADPR34.SA,"Automatic Data Processing, Inc.",46.50
+RREGN34.SA,"Regeneron Pharmaceuticals, Inc.",69.13
+JJ1CI34.SA,Johnson Controls International plc,718.02
+MM1MC34.SA,"Marsh & McLennan Companies, Inc.",452.74
+EE1CL34.SA,Ecolab Inc.,373.16
+SS1NP34.SA,"Synopsys, Inc.",569.25
+CC1MI34.SA,Cummins Inc.,780.75
+IINGG34.SA,ING Groep N.V.,148.48
+RROXO34.SA,Nu Holdings Ltd.,14.75
+LL1YG34.SA,Lloyds Banking Group plc,29.16
+OORLY34.SA,"O'Reilly Automotive, Inc.",1.64
+CC1DN34.SA,"Cadence Design Systems, Inc.",781.54
+BBPAC3.SA,Banco BTG Pactual S.A.,43.20
+BBONY34.SA,The Bank of New York Mellon Corporation,615.27
+MM1NS34.SA,Monster Beverage Corporation,53.44
+MMDLZ34.SA,"Mondelez International, Inc.",160.20
+CC1TA34.SA,Cintas Corporation,205.50
+DD1EL34.SA,Dell Technologies Inc.,610.02
+CCOLG34.SA,Colgate-Palmolive Company,72.38
+CCSXC34.SA,CSX Corporation,107.00
+CCPRL34.SA,Canadian Pacific Kansas City Limited,107.31
+NNETE34.SA,"NetEase, Inc.",62.75
+SSLBG34.SA,SLB N.V.,133.38
+MMCOR34.SA,Moody's Corporation,558.12
+HH1LT34.SA,Hilton Worldwide Holdings Inc.,70.10
+CC1IC34.SA,The Cigna Group,377.20
+GGMCO34.SA,General Motors Company,103.48
+AAIRB34.SA,"Airbnb, Inc.",31.35
+TT1DG34.SA,TransDigm Group Incorporated,134.39
+II1FO34.SA,Infosys Limited,45.99
+EE1LV34.SA,"Elevance Health, Inc.",339.29
+VVALE3.SA,Vale S.A.,87.03
+KKMIC34.SA,"Kinder Morgan, Inc.",165.30
+RR1YA34.SA,Ryanair Holdings plc,43.60
+DD2AS34.SA,"DoorDash, Inc.",56.63
+WW1BD34.SA,"Warner Bros. Discovery, Inc.",146.72
+MM1SI34.SA,"Motorola Solutions, Inc.",542.06
+AA1EP34.SA,"American Electric Power Company, Inc.",323.40
+AA1ON34.SA,Aon plc,416.14
+TT1EL34.SA,TE Connectivity plc,592.95
+EE1QN34.SA,Equinor ASA,70.07
+SSIMN34.SA,"Simon Property Group, Inc.",257.75
+CCNIC34.SA,Canadian National Railway Company,23.25
+AA1PD34.SA,"Air Products and Chemicals, Inc.",381.11
+TTRVC34.SA,"The Travelers Companies, Inc.",48.76
+NN1WG34.SA,NatWest Group plc,83.57
+PP1SX34.SA,Phillips 66,413.93
+AAZOI34.SA,"AutoZone, Inc.",90.09
+LL1HX34.SA,"L3Harris Technologies, Inc.",439.65
+SS2EA34.SA,Sea Limited,22.22
+FF1TN34.SA,"Fortinet, Inc.",219.43
+SS2NW34.SA,Snowflake Inc.,23.74
+RROST34.SA,"Ross Stores, Inc.",497.05
+MMSBR34.SA,Morgan Stanley,178.47
+SS1RE34.SA,Sempra,123.46
+NN1XP34.SA,NXP Semiconductors N.V.,637.56
+VVLOE34.SA,Valero Energy Corporation,525.45
+DD1LR34.SA,"Digital Realty Trust, Inc.",231.00
+AA1FL34.SA,Aflac Incorporated,613.20
+RR1IN34.SA,Realty Income Corporation,172.04
+BB1KR34.SA,Baker Hughes Company,305.35
+ZZ1TS34.SA,Zoetis Inc.,42.65
+FFDMO34.SA,Ford Motor Company,73.79
+GG1WW34.SA,"W.W. Grainger, Inc.",155.89
+TTAKP34.SA,Takeda Pharmaceutical Company Limited,93.24
+RR1EL34.SA,RELX PLC,40.50
+UU1RI34.SA,"United Rentals, Inc.",162.25
+CC1RR34.SA,Carrier Global Corporation,86.16
+DDEOP34.SA,Diageo plc,28.65
+DD1OM34.SA,"Dominion Energy, Inc.",166.90
+AA1JG34.SA,Arthur J. Gallagher & Co.,555.01
+AA1TT34.SA,The Allstate Corporation,45.08
+OO1KE34.SA,"ONEOK, Inc.",219.81
+AA1ME34.SA,"AMETEK, Inc.",50.00
+AA1RG34.SA,argenx SE,174.75
+TTGTB34.SA,Target Corporation,602.98
+CC1AH34.SA,"Cardinal Health, Inc.","1,154.72"
+PP1SA34.SA,Public Storage,305.92
+FF1AN34.SA,"Diamondback Energy, Inc.",436.01
+CC1TV34.SA,"Corteva, Inc.",98.30
+EEAIN34.SA,Electronic Arts Inc.,521.32
+GG1FI34.SA,Gold Fields Limited,142.09
+II1DX34.SA,"IDEXX Laboratories, Inc.",648.33
+AA1UT34.SA,"Autodesk, Inc.",302.94
+AABEV3.SA,Ambev S.A.,16.35
+BBPAC5.SA,Banco BTG Pactual S.A.,11.00
+CC1MG34.SA,"Chipotle Mexican Grill, Inc.",9.60
+BBIDU34.SA,"Baidu, Inc.",51.06
+FF2NV34.SA,Franco-Nevada Corporation,7.13
+CCTGP34.SA,Citigroup Inc.,96.10
+HH1EI34.SA,HEICO Corporation,174.24
+AARMT34.SA,ArcelorMittal S.A.,158.83
+EE1XC34.SA,Exelon Corporation,231.14
+NN1DA34.SA,"Nasdaq, Inc.",207.74
+OOXYP34.SA,Occidental Petroleum Corporation,40.29
+HHSHY34.SA,The Hershey Company,233.65
+EE1WL34.SA,Edwards Lifesciences Corporation,100.76
+DDEAI34.SA,"Delta Air Lines, Inc.",360.00
+RR2BL34.SA,Roblox Corporation,32.96
+CC1CL34.SA,Carnival Corporation & plc,167.96
+CC2OI34.SA,"Coinbase Global, Inc.",34.43
+DD1DG34.SA,"Datadog, Inc.",65.75
+SS1YY34.SA,Sysco Corporation,238.80
+AA1MP34.SA,"Ameriprise Financial, Inc.",618.95
+WWEGE3.SA,WEG S.A.,53.80
+CC1BR34.SA,"CBRE Group, Inc.",740.53
+MM1CH34.SA,Microchip Technology Incorporated,204.96
+WW1AB34.SA,Westinghouse Air Brake Technologies Corporation,640.31
+AAIGB34.SA,"American International Group, Inc.",405.08
+OO1DF34.SA,"Old Dominion Freight Line, Inc.",50.01
+NN1UE34.SA,Nucor Corporation,78.74
+HHOND34.SA,"Honda Motor Co., Ltd.",166.03
+AA1LN34.SA,"Alnylam Pharmaceuticals, Inc.",81.00
+PP1EG34.SA,Public Service Enterprise Group Incorporated,421.16
+VV1TA34.SA,"Ventas, Inc.",223.02
+KK1BF34.SA,KB Financial Group Inc.,146.85
+JJDCO34.SA,"JD.com, Inc.",23.71
+II1XC34.SA,ORIX Corporation,23.64
+BBBDC4.SA,Banco Bradesco S.A.,20.97
+TT1EV34.SA,Teva Pharmaceutical Industries Limited,88.92
+BBBDC3.SA,Banco Bradesco S.A.,18.14
+EELCI34.SA,The Estée Lauder Companies Inc.,23.74
+NNOKI34.SA,Nokia Oyj,36.68
+II1CE34.SA,"Intercontinental Exchange, Inc.",398.64
+MM1SC34.SA,MSCI Inc.,62.40
+WW1DA34.SA,"Workday, Inc.",47.59
+BBPAC11.SA,Banco BTG Pactual S.A.,59.59
+LL1VS34.SA,Las Vegas Sands Corp.,59.51
+CCRIP34.SA,Trip.com Group Limited,303.49
+PPYPL34.SA,"PayPal Holdings, Inc.",10.44
+EEBAY34.SA,eBay Inc.,211.90
+NN1RG34.SA,"NRG Energy, Inc.",895.92
+EE1RI34.SA,Telefonaktiebolaget LM Ericsson (publ),28.82
+SS1TT34.SA,State Street Corporation,688.39
+RR1MD34.SA,ResMed Inc.,329.59
+CC1PR34.SA,"Copart, Inc.",98.79
+KKMBB34.SA,Kimberly-Clark Corporation,575.60
+WW1EC34.SA,"WEC Energy Group, Inc.",292.59
+MM1TB34.SA,M&T Bank Corporation,307.87
+VV1OD34.SA,Vodafone Group Public Limited Company,40.60
+LL1YV34.SA,"Live Nation Entertainment, Inc.",162.60
+PP1DT34.SA,"Prudential Financial, Inc.",266.90
+AA1GI34.SA,"Agilent Technologies, Inc.",331.40
+TT1TW34.SA,"Take-Two Interactive Software, Inc.",252.12
+UU1AL34.SA,"United Airlines Holdings, Inc.",285.38
+OO1TI34.SA,Otis Worldwide Corporation,46.71
+CC1CI34.SA,Crown Castle Inc.,103.81
+RR1OP34.SA,"Roper Technologies, Inc.",169.00
+PP1AY34.SA,"Paychex, Inc.",250.00
+XX1YL34.SA,Xylem Inc.,367.80
+AA1DM34.SA,Archer-Daniels-Midland Company,359.00
+CC1HT34.SA,"Chunghwa Telecom Co., Ltd.",55.08
+DDGCO34.SA,Dollar General Corporation,32.13
+RR1JF34.SA,"Raymond James Financial, Inc.",419.72
+II1RM34.SA,Iron Mountain Incorporated,572.24
+EE1XR34.SA,Extra Space Storage Inc.,188.52
+FF1IS34.SA,"Fiserv, Inc.",154.96
+IITSA4.SA,Itaúsa S.A.,14.60
+IITSA3.SA,Itaúsa S.A.,14.58
+SSANB11.SA,Banco Santander (Brasil) S.A.,34.50
+TTPRY34.SA,"Tapestry, Inc.",801.02
+XX1YZ34.SA,"Block, Inc.",10.54
+SSTMN34.SA,STMicroelectronics N.V.,180.62
+CCHCM34.SA,"Charter Communications, Inc.",20.96
+LL1EN34.SA,Lennar Corporation,635.00
+MM1DB34.SA,"MongoDB, Inc.",96.31
+PPHGN34.SA,Koninklijke Philips N.V.,164.34
+UU1LT34.SA,"Ulta Beauty, Inc.",174.78
+EEXGR34.SA,"Expedia Group, Inc.",630.02
+CC1BO34.SA,"Cboe Global Markets, Inc.",727.00
+PP1PG34.SA,"PPG Industries, Inc.",340.17
+KKHCB34.SA,The Kraft Heinz Company,32.51
+HHALI34.SA,Halliburton Company,181.72
+BBIIB34.SA,Biogen Inc.,172.26
+DD1VN34.SA,Devon Energy Corporation,235.06
+RR1OL34.SA,"Rollins, Inc.",313.79
+TT1SC34.SA,Tractor Supply Company,15.74
+CC1FG34.SA,"Citizens Financial Group, Inc.",348.25
+PP1HM34.SA,"PulteGroup, Inc.",725.48
+VV2EE34.SA,Veeva Systems Inc.,29.52
+SS1OU34.SA,Southwest Airlines Co.,278.40
+BBBAS3.SA,Banco do Brasil S.A.,25.43
+KKLBN11.SA,Klabin S.A.,20.39
+ZZ1OM34.SA,"Zoom Communications, Inc.",19.25
+NNMRH34.SA,"Nomura Holdings, Inc.",48.00
+BB1NT34.SA,BioNTech SE,34.41
+MMKLC34.SA,Markel Group Inc.,552.50
+AAXIA6.SA,AXIA Energia SA,62.02
+WW1RB34.SA,W. R. Berkley Corporation,36.60
+EE1IX34.SA,Edison International,176.94
+TT1EC34.SA,TechnipFMC plc,322.87
+GG1MI34.SA,"General Mills, Inc.",254.00
+SSTZB34.SA,"Constellation Brands, Inc.",194.89
+AA1WK34.SA,"American Water Works Company, Inc.",171.27
+EE1QR34.SA,Equity Residential,171.00
+EE1CO34.SA,Ecopetrol S.A.,30.93
+II1PC34.SA,International Paper Company,250.00
+VV1RS34.SA,"Verisk Analytics, Inc.",12.52
+DD1EX34.SA,"DexCom, Inc.",6.78
+SSANB4.SA,Banco Santander (Brasil) S.A.,17.36
+AAXIA3.SA,AXIA Energia SA,58.43
+VVIVT3.SA,Telefônica Brasil S.A.,40.99
+AA1VB34.SA,"AvalonBay Communities, Inc.",230.00
+SSANB3.SA,Banco Santander (Brasil) S.A.,16.93
+FFSLR34.SA,"First Solar, Inc.",591.93
+FF1NI34.SA,"Fidelity National Information Services, Inc.",15.30
+SS1TE34.SA,STERIS plc,63.68
+DD1OW34.SA,Dow Inc.,42.90
+CCHDC34.SA,"Church & Dwight Co., Inc.",511.11
+TTSNF34.SA,"Tyson Foods, Inc.",335.34
+TT1AM34.SA,Atlassian Corporation,22.37
+HH1UM34.SA,Humana Inc.,21.28
+CC1MS34.SA,CMS Energy Corporation,191.88
+II1HG34.SA,InterContinental Hotels Group PLC,127.12
+VVRSN34.SA,"VeriSign, Inc.",310.24
+AA1CR34.SA,Amcor plc,245.75
+UU2TH34.SA,United Therapeutics Corporation,128.25
+RR1LC34.SA,Ralph Lauren Corporation,925.58
+NN1IS34.SA,NiSource Inc.,233.68
+CC1HR34.SA,"C.H. Robinson Worldwide, Inc.",46.45
+SSBSP3.SA,Companhia de Saneamento Básico do Estado de São Paulo - SABESP,152.50
+NN1TA34.SA,"NetApp, Inc.",538.56
+II1NC34.SA,Incyte Corporation,267.36
+DDDNB34.SA,"DuPont de Nemours, Inc.",258.57
+BB1RF34.SA,"Broadridge Financial Solutions, Inc.",223.23
+LL1UL34.SA,lululemon athletica inc.,221.88
+PP1KX34.SA,POSCO Holdings Inc.,85.28
+ZZ1TO34.SA,ZTO Express (Cayman) Inc.,31.84
+AA1LB34.SA,Albemarle Corporation,36.27
+GG1PI34.SA,Global Payments Inc.,89.67
+CC1GP34.SA,"CoStar Group, Inc.",2.36
+WW1YC34.SA,Weyerhaeuser Company,138.74
+MM1KC34.SA,"McCormick & Company, Incorporated",92.85
+SS1BA34.SA,SBA Communications Corporation,185.00
+LL1YB34.SA,LyondellBasell Industries N.V.,152.20
+CC1NC34.SA,Centene Corporation,197.62
+CC1HK34.SA,Check Point Software Technologies Ltd.,426.50
+II1LM34.SA,"Illumina, Inc.",122.35
+RRDOR3.SA,Rede D'Or São Luiz S.A.,42.66
+AAPTV34.SA,Aptiv PLC,219.00
+HHPQB34.SA,HP Inc.,100.70
+JJBSS32.SA,JBS N.V.,83.22
+SS1SN34.SA,"SS&C Technologies Holdings, Inc.",62.84
+MM1RN34.SA,"Moderna, Inc.",11.52
+HHSRE11.SA,Hsi Renda Imobiliario - Fundo De Investimento Imobiliario,102.00
+TT1WL34.SA,Twilio Inc.,23.75
+SS2UI34.SA,"Sun Communities, Inc.",34.14
+TTSNC11.SA,Transinc Fundo,80.80
+BB3SA3.SA,"B3 S.A. - Brasil, Bolsa, Balcão",17.46
+BB1SA34.SA,Banco Santander-Chile,92.80
+HH1TH34.SA,H World Group Limited,69.60
+CC1OO34.SA,"The Cooper Companies, Inc.",43.70
+CCLXC34.SA,The Clorox Company,162.55
+AA1KA34.SA,"Akamai Technologies, Inc.",48.85
+II1EX34.SA,IDEX Corporation,55.25
+HH1II34.SA,"Huntington Ingalls Industries, Inc.",27.38
+JJ1EG34.SA,Jacobs Solutions Inc.,347.60
+OO1KT34.SA,"Okta, Inc.",22.99
+WW1MG34.SA,Warner Music Group Corp.,39.00
+YY2PF34.SA,YPF Sociedad Anónima,194.40
+KK1IM34.SA,Kimco Realty Corporation,114.40
+SS1WK34.SA,"Stanley Black & Decker, Inc.",119.84
+ZZ1BR34.SA,Zebra Technologies Corporation,48.01
+UU1HS34.SA,"Universal Health Services, Inc.",292.32
+BB1FC34.SA,Brown-Forman Corporation,156.78
+SSUZB3.SA,Suzano S.A.,58.34
+AA1LG34.SA,"Align Technology, Inc.",248.50
+HH1RL34.SA,Hormel Foods Corporation,127.66
+HH1AS34.SA,"Hasbro, Inc.",250.00
+RR1KU34.SA,"Roku, Inc.",23.36
+NN1WS34.SA,News Corporation,116.75
+NN1BI34.SA,"Neurocrine Biosciences, Inc.",33.84
+EEMBJ3.SA,Embraer S.A.,92.84
+DD2PZ34.SA,"Domino's Pizza, Inc.",39.69
+HH2UB34.SA,"HubSpot, Inc.",25.41
+TT2TD34.SA,"The Trade Desk, Inc.",1.36
+BBBSE3.SA,BB Seguridade Participações S.A.,33.82
+TTIMS3.SA,TIM S.A.,27.29
+SS1BS34.SA,Sibanye Stillwater Limited,45.12
+BB1IL34.SA,Bilibili Inc.,31.83
+GG2DD34.SA,GoDaddy Inc.,47.60
+GG1AR34.SA,"Gartner, Inc.",205.20
+RR1DY34.SA,Dr. Reddy's Laboratories Limited,12.48
+CC2PT34.SA,Camden Property Trust,38.75
+PP1EA34.SA,"Healthpeak Properties, Inc.",88.48
+BB1MR34.SA,BioMarin Pharmaceutical Inc.,156.63
+SS1JM34.SA,The J. M. Smucker Company,284.53
+AA1ES34.SA,The AES Corporation,85.09
+WW2YF34.SA,Wayfair Inc.,13.19
+AA1EG34.SA,Aegon Ltd.,39.24
+PPSKY34.SA,PARA SKYDNC DRN,53.34
+KK1TC34.SA,KT Corporation,121.72
+CCPFE3.SA,CPFL Energia S.A.,50.74
+SS1KM34.SA,"SK Telecom Co., Ltd.",37.40
+ZZ2LL34.SA,"Zillow Group, Inc.",19.74
+DD2KN34.SA,DraftKings Inc.,19.11
+RRENT3.SA,Localiza Rent a Car S.A.,51.44
+XXPBR31.SA,XP Inc.,104.39
+CCXSE3.SA,Caixa Seguridade Participações S.A.,18.03
+BB1AX34.SA,Baxter International Inc.,51.85
+PP2IN34.SA,"Pinterest, Inc.",13.12
+EE1DU34.SA,New Oriental Education & Technology Group Inc.,21.14
+GGPSI34.SA,"The Gap, Inc.",141.20
+DDVAI34.SA,DaVita Inc.,783.00
+TT1CH34.SA,Bio-Techne Corporation,11.08
+NN1CL34.SA,Norwegian Cruise Line Holdings Ltd.,114.08
+AA1TH34.SA,Autohome Inc.,10.92
+BBOXP34.SA,"BXP, Inc.",32.19
+EEQTL3.SA,Equatorial S.A.,41.00
+AA1PA34.SA,APA Corporation,139.23
+MMOSC34.SA,The Mosaic Company,25.86
+CC1AG34.SA,"Conagra Brands, Inc.",102.61
+SS1SL34.SA,"Skyworks Solutions, Inc.",160.80
+GG1DS34.SA,GDS Holdings Limited,24.06
+AAALL34.SA,American Airlines Group Inc.,72.32
+AA1RE34.SA,"Alexandria Real Estate Equities, Inc.",68.59
+DD1OC34.SA,"DocuSign, Inc.",11.75
+EE1MN34.SA,Eastman Chemical Company,205.92
+VV1IP34.SA,Vipshop Holdings Limited,44.24
+CC1PB34.SA,The Campbell's Company,154.20
+RRADL3.SA,Raia Drogasil S.A.,25.95
+AAWII34.SA,"Armstrong World Industries, Inc.","1,035.00"
+LL1MN34.SA,"Lumen Technologies, Inc.",43.21
+MM1HK34.SA,"Mohawk Industries, Inc.",27.41
+CCMIG3.SA,Companhia Energética de Minas Gerais - CEMIG,15.25
+DD2AR34.SA,Darling Ingredients Inc.,34.08
+GGGBR4.SA,Gerdau S.A.,21.65
+PPRIO3.SA,Prio S.A.,52.56
+VVFCO34.SA,V.F. Corporation,53.40
+LLBRD34.SA,Liberty Broadband Corporation,24.21
+CCPLE3.SA,Companhia Paranaense de Energia - COPEL,13.97
+UU2ST34.SA,Unity Software Inc.,4.83
+EENEV3.SA,Eneva S.A.,21.44
+QQ1RV34.SA,"Qorvo, Inc.",215.44
+LL1NC34.SA,Lincoln National Corporation,210.00
+NNEOE3.SA,Neoenergia S.A.,32.72
+VVLYB34.SA,Valley National Bancorp,70.29
+NN1OV34.SA,NOV Inc.,99.90
+EEGIE3.SA,Engie Brasil Energia S.A.,33.70
+MM1TC34.SA,"Match Group, Inc.",7.97
+RRIGG34.SA,Transocean Ltd.,34.06
+DD2OX34.SA,Amdocs Limited,44.02
+SS2TA34.SA,"STAG Industrial, Inc.",39.60
+VVBBR3.SA,Vibra Energia S.A.,31.73
+CCMIG4.SA,Companhia Energética de Minas Gerais - CEMIG,11.76
+GGGBR3.SA,Gerdau S.A.,18.51
+TT1AL34.SA,TAL Education Group,5.87
+NN1IC34.SA,NICE Ltd.,23.06
+PP1YC34.SA,"Paycom Software, Inc.",21.52
+AA1LK34.SA,"Alaska Air Group, Inc.",298.49
+MM1KT34.SA,MarketAxess Holdings Inc.,18.44
+CC1NS34.SA,Celanese Corporation,155.40
+EE2ST34.SA,Elastic N.V.,25.90
+MMOTV3.SA,Motiva Infraestrutura de Mobilidade S.A.,16.37
+PPSSA3.SA,Porto Seguro S.A.,51.00
+CC2HD34.SA,Churchill Downs Incorporated,23.35
+VV1NO34.SA,Vornado Realty Trust,155.85
+EENGI3.SA,Energisa S.A.,12.62
+PP2AT34.SA,"UiPath, Inc.",7.41
+AAURA33.SA,Aura Minerals Inc.,125.09
+RRAIL3.SA,Rumo S.A.,16.24
+MMACY34.SA,"Macy's, Inc.",112.54
+CCMIN3.SA,CSN Mineração S.A.,5.46
+EENGI4.SA,Energisa S.A.,9.73
+UUGPA3.SA,Ultrapar Participações S.A.,26.98
+CCRDA34.SA,Credit Acceptance Corporation,263.25
+WW1HR34.SA,Whirlpool Corporation,118.03
+MMBRF3.SA,Marfrig Global Foods S.A.,18.80
+II1PG34.SA,IPG Photonics Corporation,286.23
+KKLBN3.SA,Klabin S.A.,4.07
+KKLBN4.SA,Klabin S.A.,4.05
+BB2HI34.SA,"BILL Holdings, Inc.",1.36
+TT1FX34.SA,Teleflex Incorporated,55.52
+EE2TS34.SA,"Etsy, Inc.",16.00
+CCSAN3.SA,Cosan S.A.,6.12
+BB1BW34.SA,"Bath & Body Works, Inc.",29.02
+EENGI11.SA,Energisa S.A.,51.60
+IISAE3.SA,ISA Energía Brasil S.A.,34.97
+TTOTS3.SA,TOTVS S.A.,38.03
+KK2CG34.SA,Kingsoft Cloud Holdings Limited,12.57
+CC2ZR34.SA,"Caesars Entertainment, Inc.",10.91
+IISAE4.SA,ISA Energía Brasil S.A.,29.60
+AA1IV34.SA,Apartment Investment and Management Company,30.60
+WW1PP34.SA,WPP plc,19.62
+CCSMG3.SA,Companhia de Saneamento de Minas Gerais,55.81
+WW1IX34.SA,Wix.com Ltd.,12.22
+IINBR32.SA,"Inter & Co, Inc.",45.63
+RR2HH34.SA,RH,16.85
+AA1AP34.SA,"Advance Auto Parts, Inc.",19.36
+ZZ1TA34.SA,ZETA GLOBAL DRN,40.68
+AA1LL34.SA,"Bread Financial Holdings, Inc.",100.49
+CCGAS5.SA,Companhia de Gás de São Paulo - COMGÁS,132.38
+MM2PW34.SA,"Medical Properties Trust, Inc.",14.42
+SSAPR3.SA,Companhia de Saneamento do Paraná - SANEPAR,11.28
+CCGAS3.SA,Companhia de Gás de São Paulo - COMGÁS,127.01
+WWUNI34.SA,The Western Union Company,50.50
+MMRSA3B.SA,MRS Logística S.A.,48.90
+AALUP11.SA,Alupar Investimento S.A.,35.80
+RREDE3.SA,Rede Energia Participações S.A.,6.32
+PPAGS34.SA,PagSeguro Digital Ltd.,10.91
+MMULT3.SA,Multiplan Empreendimentos Imobiliários S.A.,32.78
+IIGTI4.SA,Iguatemi S.A.,13.09
+SS1LG34.SA,SL Green Realty Corp.,106.70
+UU1AI34.SA,"Under Armour, Inc.",36.51
+AALOS3.SA,Allos S.A.,30.67
+TTAEE4.SA,Transmissora Aliança de Energia Elétrica S.A.,14.64
+LLREN3.SA,Lojas Renner S.A.,15.35
+TTAEE11.SA,Transmissora Aliança de Energia Elétrica S.A.,43.60
+TTAEE3.SA,Transmissora Aliança de Energia Elétrica S.A.,14.36
+HHYPE3.SA,Hypera S.A.,23.30
+FF1SL34.SA,"Fastly, Inc.",9.56
+EE2EF34.SA,"Euronet Worldwide, Inc.",2.25
+XXRAY34.SA,DENTSPLY SIRONA Inc.,69.24
+GGGPS3.SA,GPS Participações e Empreendimentos S.A.,18.70
+SSAPR11.SA,Companhia de Saneamento do Paraná - SANEPAR,46.17
+EEQPA3.SA,Equatorial Pará Distribuidora de Energia S.A.,6.27
+GGOLL54.SA,Gol Linhas Aéreas Inteligentes S.A.,11.45
+SSAPR4.SA,Companhia de Saneamento do Paraná - SANEPAR,8.73
+CCEGR3.SA,Companhia Distribuidora de Gás do Rio de Janeiro - CEG,55.00
+RR1HI34.SA,Robert Half Inc.,131.69
+BBRKM6.SA,Braskem S.A.,8.40
+AASAI3.SA,Sendas Distribuidora S.A.,9.90
+AALUP3.SA,Alupar Investimento S.A.,13.37
+WW1BO34.SA,Weibo Corporation,13.19
+GGOAU4.SA,Metalurgica Gerdau S.A.,9.71
+HH1OG34.SA,"Harley-Davidson, Inc.",105.77
+SSMFT3.SA,Smartfit Escola de Ginástica e Dança S.A.,20.68
+NNATU3.SA,Natura Cosméticos S.A.,9.19
+CCURY3.SA,Cury Construtora e Incorporadora S.A.,40.80
+GGMAT3.SA,Grupo Mateus S.A.,5.41
+GGOAU3.SA,Metalurgica Gerdau S.A.,9.34
+CCEEB3.SA,Companhia de Eletricidade do Estado da Bahia - COELBA,47.00
+AAURE3.SA,Auren Energia S.A.,11.64
+BBNBR3.SA,Banco do Nordeste do Brasil S.A.,123.00
+AALUP4.SA,Alupar Investimento S.A.,11.30
+AANCR11.SA,Fundo de Investimento Imobiliário - FII Ancar IC,449.00
+CCOTY34.SA,Coty Inc.,6.66
+PP2AX34.SA,Patria Investments Limited,36.32
+GG1LP34.SA,Galapagos NV,8.80
+CCSNA3.SA,Companhia Siderúrgica Nacional,8.73
+EENMT4.SA,Energisa Mato Grosso - Distribuidora de Energia S/A,51.99
+GG1LO34.SA,GLOBANT SA  DRN,12.87
+CCYRE3.SA,Cyrela Brazil Realty S.A. Empreendimentos e Participações,30.64
+KK1SS34.SA,Kohl's Corporation,98.88
+EENMT3.SA,Energisa Mato Grosso - Distribuidora de Energia S/A,48.50
+SS1RP34.SA,"Sarepta Therapeutics, Inc.",4.71
+AALPA4.SA,Alpargatas S.A.,15.03
+NN1WL34.SA,Newell Brands Inc.,23.48
+FF1MC34.SA,FMC Corporation,38.67
+FFLRY3.SA,Fleury S.A.,17.52
+EEKTR3.SA,Elektro Redes S.A.,48.90
+BBRAP4.SA,Bradespar S.A.,23.89
+AA1RC34.SA,ARCO DORADOSDRN,44.01
+UU2PW34.SA,Upwork Inc.,13.91
+II1QY34.SA,"iQIYI, Inc.",4.66
+AALPA3.SA,Alpargatas S.A.,12.84
+BBRAP3.SA,Bradespar S.A.,20.49
+MMDIA3.SA,M. Dias Branco S.A. Indústria e Comércio de Alimentos,25.12
+DDIRR3.SA,Direcional Engenharia S.A.,16.19
+PP2EN34.SA,"PENN Entertainment, Inc.",6.30
+LL1EG34.SA,"Leggett & Platt, Incorporated",61.49
+MMGLU3.SA,Magazine Luiza S.A.,10.23
+BBRAV3.SA,Brava Energia S.A.,17.69
+KKNCR11.SA,Kinea Rendimentos Imobiliários Fundo de Investimento Imobiliário - FII,106.10
+TTTEN3.SA,Três Tentos Agroindustrial S/A,15.91
+UUSIM3.SA,Usinas Siderúrgicas de Minas Gerais S.A.,6.42
+SSLCE3.SA,SLC Agrícola S.A.,15.89
+PPOMO4.SA,Marcopolo S.A.,6.36
+BBRSR3.SA,Banco do Estado do Rio Grande do Sul S.A.,19.13
+SS2GM34.SA,Sigma Lithium Corporation,23.40
+BBRKM5.SA,Braskem S.A.,9.79
+UUSIM5.SA,Usinas Siderúrgicas de Minas Gerais S.A.,6.32
+IIGTI3.SA,Iguatemi S.A.,3.26
+EEKTR4.SA,Elektro Redes S.A.,39.99
+BBRSR5.SA,Banco do Estado do Rio Grande do Sul S.A.,18.75
+BBRSR6.SA,Banco do Estado do Rio Grande do Sul S.A.,18.45
+CCRIN34.SA,"Carter's, Inc.",103.40
+UUNIP6.SA,Unipar Carbocloro S.A.,66.64
+BBRKM3.SA,Braskem S.A.,9.29
+PPOMO3.SA,Marcopolo S.A.,5.95
+KKNIP11.SA,Kinea Indices Precos Fundo Investimento Imobiliario - FII,91.45
+EECOR3.SA,EcoRodovias Infraestrutura e Logística S.A.,10.39
+UUNIP5.SA,Unipar Carbocloro S.A.,64.30
+WWHRL4.SA,Whirlpool S.A.,4.67
+VVIVA3.SA,Vivara Participações S.A.,29.80
+BBMEB4.SA,Banco Mercantil do Brasil S.A.,67.01
+CCOGN3.SA,Cogna Educação S.A.,3.46
+OORVR3.SA,Orizon Valorização de Resíduos S.A.,70.99
+AA2FY34.SA,Afya Limited,37.17
+UUNIP3.SA,Unipar Carbocloro S.A.,60.60
+FFRAS3.SA,Frasle Mobility S.A.,24.05
+WWHRL3.SA,Whirlpool S.A.,4.38
+CCBAV3.SA,Companhia Brasileira de Alumínio,10.21
+RRAIZ4.SA,Raízen S.A.,0.63
+OODPV3.SA,Odontoprev S.A.,11.87
+JJHSF3.SA,JHSF Participações S.A.,9.65
+BBMEB3.SA,Banco Mercantil do Brasil S.A.,55.99
+XXPML11.SA,Xp Malls Fundo Investimentos Imobiliarios,111.00
+TT1RI34.SA,"Tripadvisor, Inc.",50.56
+AABCB4.SA,Banco ABC Brasil S.A.,26.93
+CCLSC3.SA,Centrais Elétricas de Santa Catarina S.A.,131.00
+EEVEB31.SA,EVE BRASIL  DR1,16.43
+BBEEF3.SA,Minerva S.A.,5.72
+VVULC3.SA,Vulcabras S.A.,17.92
+SSIMH3.SA,SIMPAR S.A.,6.56
+CCLSC4.SA,Centrais Elétricas de Santa Catarina S.A.,143.30
+MMRVE3.SA,MRV Engenharia e Participações S.A.,9.79
+HHBSA3.SA,Hidrovias do Brasil S.A.,3.96
+HHGLG11.SA,Cshg Logistica - Fundo De Investimento Imobiliario,156.88
+DDASA3.SA,Diagnósticos da América S.A.,4.21
+DDXCO3.SA,Dexco S.A.,5.63
+EEQMA3B.SA,Equatorial Maranhão Distribuidora de Energia S.A.,30.99
+SSMTO3.SA,São Martinho S.A.,15.42
+AAZZA3.SA,Azzas 2154 S.A.,24.48
+HHAPV3.SA,Hapvida Participações e Investimentos S.A.,10.40
+IIRBR3.SA,IRB-Brasil Resseguros S.A.,59.32
+CCBEE3.SA,Ampla Energia e Serviços S.A.,10.69
+LLEVE3.SA,MAHLE Metal Leve S.A.,35.12
+PPGMN3.SA,Empreendimentos Pague Menos S.A.,7.18
+KKNRI11.SA,Kinea Renda Imobiliária Fundo de Investimento Imobiliário,166.59
+VVAMO3.SA,"Vamos Locação de Caminhões, Máquinas e Equipamentos S.A.",4.37
+MMOVI3.SA,Movida Participações S.A.,13.22
+BBTLG11.SA,BTG Pactual Logística Fundo de Investimento Imobiliário,102.99
+TT2DH34.SA,"Teladoc Health, Inc.",0.82
+GGRND3.SA,Grendene S.A.,4.78
+FFESA3.SA,Cia de Ferro Ligas da Bahia S.A. - FERBASA,12.60
+MMXRF11.SA,Maxi Renda Fundo De Investimento Imobiliaro - FII,9.74
+EEZTC3.SA,EZTEC Empreendimentos e Participações S.A.,15.25
+EEMAE4.SA,Empresa Metropolitana de Águas e Energia S.A.,48.00
+IINTB3.SA,Intelbras S.A. - Indústria de Telecomunicação Eletrônica Brasileira,12.47
+TTEND3.SA,Construtora Tenda S.A.,32.64
+CCEAB3.SA,C&A Modas S.A.,12.86
+LLAVV3.SA,Lavvi Empreendimentos Imobiliários S.A.,18.17
+CC1AB34.SA,"Cable One, Inc.",3.02
+MMILS3.SA,"Mills Locação, Serviços e Logística S.A.",15.06
+YYDUQ3.SA,Yduqs Participações S.A.,12.88
+LLOGN3.SA,Log-In Logística Intermodal S.A.,31.90
+OONCO3.SA,Oncoclínicas do Brasil Serviços Médicos S.A.,3.00
+CCOCE3.SA,Companhia Energética do Ceará - COELCE,38.00
+MMDNE3.SA,Moura Dubeux Engenharia S.A.,32.16
+GGEPA4.SA,Rio Paranapanema Energia S.A.,34.98
+PPLPL3.SA,Plano & Plano Desenvolvimento Imobiliário S.A.,15.96
+SSEQL3.SA,Sequoia Logística e Transportes S.A.,0.56
+RRECV3.SA,Petroreconcavo S.A.,10.85
+PPINE3.SA,Banco Pine S.A.,13.41
+GGEPA3.SA,Rio Paranapanema Energia S.A.,33.00
+VVISC11.SA,Vinci Shopping Centers Fundo Investimento Imobiliario - Fii,108.69
+CCOCE5.SA,Companhia Energética do Ceará - COELCE,30.55
+RRECR11.SA,Fundo Investimento Imobiliario Fii Ubs (Br) Recebveis Imobiliarios,82.00
+XXPLG11.SA,Xp Log Fundo Investimento Imobiliario FII,102.18
+HHGRU11.SA,Patria Renda Urbana - Fundo De Investimento Imobiliario,126.01
+BBEES4.SA,Banestes S.A - Banco do Estado do Espírito Santo,8.42
+BBEES3.SA,Banestes S.A - Banco do Estado do Espírito Santo,8.38
+BBMGB4.SA,Banco BMG S.A.,4.80
+KKNHY11.SA,Kinea High Yield Cri Fundo Investimento Imobiliario FII,100.43
+SSBFG3.SA,Grupo SBF S.A.,12.29
+FF2VR34.SA,Fiverr International Ltd.,3.77
+BBHIA3.SA,Grupo Casas Bahia S.A.,2.93
+FFESA4.SA,Cia de Ferro Ligas da Bahia S.A. - FERBASA,7.81
+TTGMA3.SA,Tegma Gestão Logística S.A.,40.00
+CCPTS11.SA,Capitania Securities II Fundo Investimento Imobiliario FII,8.00
+AAUAU3.SA,Uniao Pet Participacoes S.A.,3.03
+HHGBS11.SA,HEDGE Brasil Shopping Fundo de Investimento Imobiliário,20.18
+BBSLI3.SA,BRB - Banco de Brasília S.A.,5.22
+BBAZA3.SA,Banco da Amazônia S.A.,86.64
+TTFCO4.SA,Track & Field Co S.A.,16.76
+LLOGG3.SA,LOG Commercial Properties e Participações S.A.,28.17
+LLIGT3.SA,Light S.A.,4.81
+BBLAU3.SA,Blau Farmacêutica S.A.,10.43
+CCSED3.SA,Cruzeiro do Sul Educacional S.A.,6.53
+PPNVL3.SA,Dimed S.A. Distribuidora de Medicamentos,15.60
+JJSLG3.SA,JSL S.A.,8.13
+AAZUL53.SA,AZUL        ON  P   N2,3.32
+CCEBR5.SA,Companhia Energética de Brasília - CEB,29.82
+BBSLI4.SA,BRB - Banco de Brasília S.A.,4.70
+BB2MB34.SA,Bumble Inc.,3.00
+CCEBR3.SA,Companhia Energética de Brasília - CEB,30.16
+GGPRK34.SA,GeoPark Limited,43.44
+CCAML3.SA,Camil Alimentos S.A.,6.58
+CCEBR6.SA,Companhia Energética de Brasília - CEB,30.91
+RRAPT4.SA,Randoncorp S.A.,6.35
+RRAPT3.SA,Randoncorp S.A.,6.31
+PPVBI11.SA,Fundo De Investimento ImobiliarRio Vbi Prime Properties,79.58
+RRANI3.SA,Irani Papel e Embalagem S.A.,9.25
+EEUCA3.SA,Eucatex S.A. Indústria e Comércio,22.30
+BBMOB3.SA,Bemobi Mobile Tech S.A.,24.07
+AAGRO3.SA,BrasilAgro - Companhia Brasileira de Propriedades Agrícolas,20.36
+VVTRU3.SA,"Vitru Brasil Empreendimentos, Participações e Comércio S.A.",15.09
+FFIQE3.SA,Unifique Telecomunicações S.A.,5.18
+LLWSA3.SA,Locaweb Serviços de Internet S.A.,3.66
+SSHUL4.SA,Schulz S.A.,5.55
+EEUCA4.SA,Eucatex S.A. Indústria e Comércio,20.29
+BBTHF11.SA,Btg Pactual Real Estate Hedge Fund Fii Fundo De Investimento Imobiliario,9.40
+HHSML11.SA,Hsi Malls Fundo De Investimento Imobiliario,92.78
+KKNHF11.SA,Kinea Hedge Fund Fundo De Investimento Imobiliario,97.98
+MMATD3.SA,Hospital Mater Dei S.A.,5.78
+DDESK3.SA,Desktop S.A.,16.34
+TTGAR11.SA,Fundo Investimento Imobiliario TG Ativo Real,80.05
+TTRXF11.SA,TRX REAL ESTATE FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII,93.10
+OOPCT3.SA,OceanPact Serviços Marítimos S.A.,9.22
+AARML3.SA,"Armac Locação, Logística e Serviços S.A.",5.40
+RRZTR11.SA,Fundo De Investimento Imobiliario Riza Terrax,96.60
+KKNSC11.SA,Kinea Securities Fundo De Investimento Imobiliario – Fii,9.00
+AANIM3.SA,Ânima Holding S.A.,4.69
+VVLID3.SA,Valid Soluções S.A.,22.36
+BB2YN34.SA,"Beyond Meat, Inc.",3.83
+PPCAR3.SA,Companhia Brasileira De Distribuicao,3.52
+TTRIS3.SA,Trisul S.A.,7.37
+KKNUQ11.SA,FII KINEA UNCI  ER,105.54
+EEVEN3.SA,Even Construtora e Incorporadora S.A.,8.20
+TTUPY3.SA,Tupy S.A.,12.13
+MMCCI11.SA,Fundo De Investimento Imobiliario Maua Capital Recebiveis Imobiliarios,93.65
+KKEPL3.SA,Kepler Weber S.A.,9.10
+HHFOF11.SA,Hedge Top Fofii 3 Fundo Investimento Imobilirio,6.84
+MMYPK3.SA,Iochpe-Maxion S.A.,10.50
+SSEER3.SA,Ser Educacional S.A.,12.28
+TTVRI11.SA,BB Progressivo II Fundo de Investimento Imobiliário - FII,98.25
+GGGRC11.SA,Ggr Covipe Renda Fundo Investimento Imobiliario,10.05
+VVILG11.SA,Vinci Logistica Fundo Investimento Imobiliario FII,101.61
+HHGCR11.SA,CSHG Recebiveis Imobiliarios BC Fundo de Investimento Imobiliario - FII,96.17
+HHGRE11.SA,CSHG Real Estate - Fundo de Investimento Imobiliario - FII,124.58
+WWIZC3.SA,Wiz Co Participações e Corretagem de Seguros S.A.,9.08
+TTELB3.SA,Telecomunicações Brasileiras S.A. - Telebras,14.09
+JJSRE11.SA,JS Real Estate multigestão - FII fund,67.04
+PPMLL11.SA,Patria Malls Fundo De Investimento Imobiliario,106.89
+RRIOS3.SA,RIO ALTO    ON,29.20
+BBRST3.SA,BRISANET    ON      NM,3.09
+AALZR11.SA,Alianza Trust Renda Imobiliaria Fundo Investimento Imobiliario,10.82
+OOFSA3.SA,Ouro Fino Saúde Animal Participações S.A.,23.91
+XXRXB34.SA,Xerox Holdings Corporation,10.02
+BBRCR11.SA,Fundo de Investimento Imobiliário - FII BTG Pactual Corporate Office Fund,48.12
+GGPAR3.SA,Companhia CELG de Participações S/A,16.00
+CCVCB3.SA,CVC Brasil Operadora e Agência de Viagens S.A.,2.42
+VVRTA11.SA,Fator Veritá Fundo de Investimento Imobiliário - FII,79.03
+SSOJA3.SA,Boa Safra Sementes S.A.,8.18
+VVCJR11.SA,Vectis Juros Real Fundo De Investimento Imobiliario - Fii,80.98
+HHSLG11.SA,Hsi Logistica Fundo De Investimento Imobiliario,93.88
+VVGHF11.SA,Valora Hedge Fund Fundo De Investimento Imobiliario - Fii,7.20
+PPRNR3.SA,Priner Serviços Industriais S.A.,20.59
+MMLAS3.SA,Grupo Multi S.A.,1.41
+VVGIR11.SA,Valora Re III Fundo De Investimento Imobiliario,9.75
+BBGIP3.SA,Banco do Estado de Sergipe S.A.,51.74
+AAMER3.SA,Americanas S.A.,5.54
+FFRIO3.SA,Metalfrio Solutions S.A.,170.18
+MMCRE11.SA,Maua Capital Real Estate Fundo De Investimento Imobiliario,9.72
+GGARE11.SA,Guardian Logistica Fundo De Investimento Imobiliario,8.57
+GGZIT11.SA,Gazit Malls Fundo De Investimento Imobiliario,48.88
+GGSFI11.SA,General Shopping E Outlets Do Brasil Fundo De Investimento Imobiliario FII,10.99
+AALPK3.SA,"Allpark Empreendimentos, Participações e Serviços S.A.",4.80
+PPFRM3.SA,Profarma Distribuidora de Produtos Farmacêuticos S.A.,8.50
+TTELB4.SA,Telecomunicações Brasileiras S.A. - Telebras,8.40
+GGTWR11.SA,Fundo Investimento Imobiliario Green Towers,83.49
+RRBRX11.SA,Rbr Alpha Plus Multiestrategia Real Estate Fundo De Investimento Imobiliario,8.64
+BBTCI11.SA,Fundo Infestimento Imobiliario Btg Pactual Credito Imobiliario,9.29
+PPCIP11.SA,Fundo De Investimento Imobiliario VBI Credito,83.94
+DDEXP4.SA,Dexxos Participações S.A.,7.65
+VVGIP11.SA,Valora Cri Indice De Preco Fundo De Investimento Imobiliario,78.09
+DDEXP3.SA,Dexxos Participações S.A.,7.61
+JJALL3.SA,Jalles Machado S/A,3.03
+WWLMM4.SA,WLM Participações e Comércio de Máquinas e Veículos S.A.,25.00
+PPATI3.SA,Panatlântica S.A.,35.67
+SSCAR3.SA,São Carlos Empreendimentos e Participações S.A.,14.88
+BBIOM3.SA,Biomm S.A.,6.13
+WWLMM3.SA,WLM Participações e Comércio de Máquinas e Veículos S.A.,22.43
+MMELK3.SA,Melnick Desenvolvimento Imobiliário S.A.,3.94
+LLAND3.SA,Terra Santa Propriedades Agrícolas S.A.,8.40
+CCSUD3.SA,CSU Digital S.A.,19.16
+BBGIP4.SA,Banco do Estado de Sergipe S.A.,34.29
+PPQAG11.SA,Rb Capital Anhanguera Fundo De Investimento Imobiliario,55.64
+RRZAK11.SA,Riza Akin Fundo De Investimento Imobiliario – FII,87.06
+RROMI3.SA,Romi S.A.,8.16
+PPINE4.SA,Banco Pine S.A.,13.95
+PPEAB4.SA,Companhia de Participações Aliança da Bahia,41.79
+PPEAB3.SA,Companhia de Participações Aliança da Bahia,41.00
+GGPRO34.SA,"GoPro, Inc.",4.61
+BBBIG11.SA,Bb Premium Malls Fundo De Investimento Imobiliário De Responsabilidade Limitada,7.39
+RRZZR11.SA,Raizz Renda Logistica Fundo de Investimento Imobiliario,139.69
+SSYNE3.SA,Syn Prop & Tech S.A.,4.69
+KKORE11.SA,Kinea Oportunidades Real Estate Fundo De Investimento Imobiliario,73.89
+AALLD3.SA,Allied Tecnologia S.A.,7.47
+TTASA4.SA,Taurus Armas S.A.,5.07
+BBROF11.SA,Brpr Corporate Offices Fundo De Investimento Imobiliario,60.00
+TTASA3.SA,Taurus Armas S.A.,5.11
+BBPML11.SA,Fundo De Investimento Imobiliario BTG Pactual Shoppings,91.57
+CCPUR11.SA,Capitania HBC Renda Urbana Fundo De Investimento Imobiliario,10.68
+QQUAL3.SA,Qualicorp Consultoria e Corretora de Seguros S.A.,2.31
+AAALR3.SA,Alliança Saúde e Participações S.A.,4.22
+CCGRA3.SA,Grazziotin S.A.,27.00
+TTKNO3.SA,Tekno SA Industria e Comercio,210.00
+CCGRA4.SA,Grazziotin S.A.,26.72
+VVITT3.SA,Vittia S.A.,4.28
+JJSAF11.SA,Js Ativos Financeiros Fundo De Investimento Imobiliario,8.03
+TTKNO4.SA,Tekno S.A. Indústria e Comércio,209.00
+CCRPG5.SA,Tronox Pigmentos do Brasil S.A.,19.39
+RRBRL11.SA,RBR Log FII,91.54
+MMERC4.SA,"Mercantil Financeira S.A. - Crédito, Financiamento e Investimento",14.80
+OOIBR4.SA,Oi S.A.,1.87
+TTRXB11.SA,Trx Real Estate II Fundo De Investimento Imobiliario - Fii,174.00
+KKFOF11.SA,Kinea Fundo Fundos De Investimento Imobiliario FII,84.83
+SSHPH11.SA,FDO INV Imob Shopping Patio Higienopolis,950.01
+PPOSI3.SA,Positivo Tecnologia S.A.,4.08
+CCRPG6.SA,Tronox Pigmentos do Brasil S.A.,18.79
+TTRBL11.SA,SDI Logística Rio - Fundo de Investimento Imobiliário - FII,70.00
+TTECN3.SA,Technos S.A.,8.83
+IITRI11.SA,Itau Total Return Fundo De Investimento Imobiliario,84.94
+CCRPG3.SA,Tronox Pigmentos do Brasil S.A.,18.21
+BBTAL11.SA,FII Btg Pactual Agro Logistica,88.27
+RRPAD5.SA,Alfa Holdings S.A.,6.20
+RRCRB11.SA,Fundo de Investimento Imobiliário Rio Bravo Renda Corporativa,140.00
+XXPIN11.SA,Xp Industrial Fundo Investimento Imobiliario,72.03
+CCCME11.SA,Canuma Capital Multiestrategia Fundo De Investimento Imobiliario,9.09
+NNVHO11.SA,Fundo De Investimento Imobiliario Novo Horizonte,11.90
+AAMOB3.SA,Automob Participações S.A.,13.02
+AAMAR3.SA,Marisa Lojas S.A.,0.95
+LLJQQ3.SA,Lojas Quero-Quero S.A.,2.35
+PPTNT4.SA,Pettenati S.A. Industria Têxtil,8.31
+HHCTR11.SA,Fundo De Investimento Imobiliario Hectare Ce,21.51
+RRNEW3.SA,Renova Energia S.A.,1.27
+AAFLT3.SA,Afluente Transmissão de Energia Elétrica S.A.,7.40
+PPTBL3.SA,PBG S.A.,3.27
+VVINO11.SA,Vinci Corporate Fundo De Investimento Imobiliario,5.53
+VVVEO3.SA,CM Hospitalar S/A,1.45
+MMTSA4.SA,METISA Metalúrgica Timboense S.A.,53.44
+AAMBP3.SA,Ambipar Participações e Empreendimentos S.A.,0.27
+UURPR11.SA,Urca Prime Renda Fundo De Investimento Imobiliario - FII,38.40
+MMCLO11.SA,FII MCLO    CI  ER,10.00
+AAFHI11.SA,Af Invest Cri Fundo De Investimento Imobiliario - Recebiveis Imobiliarios,97.04
+HHREC11.SA,Hedge Recebiveis Fundo De Investimento Imobiliario,8.50
+SSHPP11.SA,Shopping Patio Paulista Fundo De Investimento Imobiliario Responsabilidade Limitada,10.00
+FFCFL11.SA,Fundo De Investimento Imobiliario Campus Faria Lima - Inicio De Negociacao,125.21
+MMTRE3.SA,Mitre Realty Empreendimentos e Participações S.A.,4.09
+CCPLG11.SA,Capitania Logistica Fundo De Investimento Imobiliario - FII,12.36
+RRPAD6.SA,Alfa Holdings S.A.,4.45
+RRSUL4.SA,Metalúrgica Riosulense S.A.,69.50
+BBCRI11.SA,Banestes Recebiveis Imobiliarios Fundo Investimento Imobiliario FII,66.85
+PPTNT3.SA,Pettenati S.A. Industria Têxtil,8.58
+RRNEW4.SA,Renova Energia S.A.,1.04
+CCLIN11.SA,Clave Indices De Precos Fundo De Investimento Imobiliario,92.56
+CCAMB3.SA,Cambuci S.A.,9.50
+VVSTE3.SA,Veste S.A. Estilo,3.47
+CCASH3.SA,Méliuz S.A.,3.50
+HHTMX11.SA,FD Invest Imob Hotel Maxinvest,137.07
+HHLOG11.SA,Hedge Logistica Fundo Investimento Imobiliario,9.27
+HHBOR3.SA,Helbor Empreendimentos S.A.,2.93
+RRZAT11.SA,Riza Arctium Real Estate Fundo De Investimento Imobiliario,91.73
+TTRNT11.SA,Fundo de Investimento Imobiliário - FII Torre Norte,98.00
+TTEPP11.SA,SDI Properties Fundo De Investimento Imobiliario,9.13
+AABCP11.SA,FII ABC Plaza Shopping Fund,81.74
+SSNCI11.SA,Suno Recebiveis Imobiliarios Fundo De Investimento Imobiliario,90.79
+EESPA3.SA,MPM Corpóreos S.A.,1.06
+IICRI11.SA,FII CI IPCA CI  ER,94.35
+IIBBP11.SA,Invista Brazilian Business Park Fundo De Investimento Imobiliario,8.45
+RRINV11.SA,Real Investor Fundo De Investimento Imobiliario Responsabilidade Limitada,110.15
+HHBRE3.SA,HBR Realty Empreendimentos Imobiliários S.A.,3.50
+BBCIA11.SA,Bradesco Carteira Imobiliaria Ativa Fundos de Investimento Imobiliario,95.76
+MMANA11.SA,Manati Capital Hedge Fund Fundo De Investimento Imobiliario,9.30
+JJASC11.SA,Jasc Renda Varejo Essencial Fundo De Investimento Imobiliario - FII,100.00
+DDEVA11.SA,Devant Recebiveis Imobiliarios Fundo De Investimento Imobiliario,24.79
+IINLG11.SA,Inter Logistico Fundo De Investimento Imobiliario - FII,77.14
+DDMVF3.SA,d1000 Varejo Farma Participações S.A.,6.84
+VVRTM11.SA,FII VRTM    CI  ER,7.30
+MMFII11.SA,Mérito Desenvolvimento Imobiliário I FII - Fundo de Investimento Imobiliário,77.05
+EEALT4.SA,Electro Aço Altona S.A.,14.05
+TTOPP11.SA,Rbr Top Offices Fundo De Investimento Imobiliario Responsabilidade Limitada,74.65
+HHBTS5.SA,Companhia Habitasul de Participações,36.97
+BBOBR4.SA,Bombril S.A.,1.28
+MMEAL3.SA,International Meal Company Alimentação S.A.,1.16
+PPATL11.SA,Patria Logistica Fundo De Investimento Imobiliario,66.58
+LLASC11.SA,Legatus Shoppings Fundo De Investimento Imobiliario - FII,112.85
+NNEWL11.SA,Newport Logastica Fundo De Investimento Imobiliario,116.99
+PPLAG11.SA,Vbi Agro - Fundo De Investimento Imobiliario,62.00
+FFIIB11.SA,Real Estate Investment Fund Industry in Brazil,472.61
+KKCRE11.SA,Kinea Creditas Fundo De Investimento Imobiliario - FII,8.82
+EEALT3.SA,Electro Aço Altona S.A.,14.10
+CCPOF11.SA,Capitania Office Properties FII - Fundo De Investimento Imobiliario,110.00
+FFATN11.SA,BRC Renda Corporativa FII - FII Athena I,87.50
+CCTKA4.SA,Karsten S.A.,49.25
+SSNFF11.SA,Suno Fundo De Fundos De Investimento Imobiliario,77.67
+CCTKA3.SA,Karsten S.A.,50.00
+KKISU11.SA,Kilima Fundo De Investimento Em Cotas De Fundos Imobiliarios Suno 30,7.01
+LLIFE11.SA,Life Capital Partners Fundo De Investimentos Imobiliarios,8.93
+HHDOF11.SA,Hedge Paladin Design Offices Fundo De Investimento Imobiliario,90.00
+PPORD11.SA,Polo Fundo de Investimento Imobiliário - Recebíveis Imobiliários II - FII,8.12
+RRPRI11.SA,RBR Premium Recebiveis Imobiliarios Fundo De Investimento Imobiliario,86.40
+HHPDP11.SA,Hedge Real Estate I Fundo De Investimento Imobliario,89.89
+HHABT11.SA,Habitat Ii - Fundo De Investimento Imobiliario,76.98
+DDOHL4.SA,Döhler S.A.,3.82
+MMNPR3.SA,Minupar Participações S.A.,4.05
+VVGRI11.SA,Valora Renda Imobiliaria Fundo De Investimento Imobiliario - Responsabilidade Limitada,8.20
+WWHGR11.SA,Whg Real Estate Fundo De Investimento Imobiliario – Fii,9.22
+BBTYU11.SA,FII BTYU    CI,9.36
+CCXCO11.SA,Fundo De Investimento Imobiliario Caixa Imoveis Corporativos,70.75
+AAIEC11.SA,Autonomy Edifícios Corporativos Fundo de Investimento Imobiliario,57.29
+TTPIS3.SA,Triunfo Participações e Investimentos S.A.,6.35
+OOUJP11.SA,Ourinvest Jpp Fundo Investimento Imobiliario - Fii,83.85
+NNSLU11.SA,Hospital Nossa Senhora De Lourde Fund,209.47
+JJCCJ11.SA,FOF JHSF Capital Fundo De Investimento Imobiliario,157.99
+RRCSL4.SA,Recrusul S/A,7.20
+AAJFI11.SA,Capitania Malls Fundo De Investimento Imobiliario,8.25
+BBALM3.SA,Baumer S.A.,26.00
+EETER3.SA,Eternit S.A.,4.09
+PPQDP11.SA,Parque Dom Pedro Shopping Center Fund,"2,329.00"
+LLPSB3.SA,LPS Brasil - Consultoria de Imóveis S.A.,1.76
+NNGRD3.SA,Neogrid Participações S.A.,26.80
+JJOPA3.SA,JOSAPAR Joaquim Oliveira S.A. Participações,22.00
+BBTRA11.SA,Fundo De Investimento Imobiliario Btg Pactual Terras Agricolas,68.69
+VVVMR11.SA,FII MULT RENCI,81.99
+FFHER3.SA,Fertilizantes Heringer S.A.,4.20
+AAPXM11.SA,Fundo De Investimento Imobiliario Apex Malls - FII,79.95
+AAROA11.SA,FII AROA    CI  ER,1.12
+FFLMA11.SA,Unitas DTVM S.A.,161.60
+GGRUL11.SA,Icatu Vanguarda Gru Logistico Fundo De Investimento Imobiliario Responsabilidade Limitada,8.98
+HHBCR11.SA,Fundo De Investimento Imobiliario Hbc Renda Urbana,137.96
+EENJU3.SA,Enjoei S.A.,1.07
+AAHEB3.SA,São Paulo Turismo S.A.,25.00
+BBLOG11.SA,FII BLOG    CI,8.40
+HHSAF11.SA,Hsi Ativos Financeiros Fundos Investimentos Imoliarios,81.80
+HHAAA11.SA,Hedge Aaa Fundo De Investimento Imobiliario,59.77
+BBGRB11.SA,FII BGRB    CI,105.00
+CCJCT11.SA,Cidade Jardim Continental Tower Fundo De Investimento Imobiliario,64.20
+VVXXV11.SA,VX XVI - Fundo De Investimento Imobiliario,728.00
+GGAME11.SA,Fundo De Investimento Imobiliario Guardian Multiestrategia Imobiliaria I,9.09
+MMIDW11.SA,Midway Mall Fundo De Investimento ImobiliaRio Responsabilidade Limitada,10.30
+FFVPQ11.SA,FVPQ - Fii V Parque,69.14
+TTJKB11.SA,Tjk Renda Imobiliaria Fundo De Investimento Imobiliario,255.06
+RRDLI11.SA,FII RDLI    CI,114.00
+MMCEM11.SA,FII MCEM    CI  ER,65.12
+JJSCR11.SA,FII JSCR    CI  ER,8.47
+BBALM4.SA,Baumer S.A.,18.97
+GG2DI33.SA,"G2D Investments, Ltd.",1.62
+AAERI3.SA,Aeris Indústria e Comércio de Equipamentos para Geração de Energia S.A.,2.99
+LLPLP11.SA,FII LAGO PDRCI  ERA,310.00
+SSPXS11.SA,Fundo De Investimento Imobiliario - Spx Syn Multiestrategia,8.80
+MMNDL3.SA,Mundial S.A. - Produtos de Consumo,17.50
+BBMKS3.SA,Bicicletas Monark S.A.,378.00
+LLUXM4.SA,Trevisa Investimentos S.A.,4.12
+DDAMT11.SA,Diamante Fundo Investimento Imobiliario,9.54
+SSNEL11.SA,Fundo De Investimento Imobiliario Suno Energias Limpas,8.58
+WWDCN3.SA,WDC NETWORKSON      NM,2.67
+BBLUE11.SA,FII BLUE    CI,189.99
+BBBRC11.SA,BB Renda Corporativa Fundo de Investimento Imobiliário - FII,103.80
+AAVLL3.SA,Alphaville S.A.,0.84
+AALZC11.SA,Alianza Crédito Imobiliário Fundo De Investimento Imobiliário,8.09
+VVSHO11.SA,FII Votorantim shopping,76.39
+CCXAG11.SA,Fundo De Investimento Imobiliario Caixa Agencias,76.65
+VVPPR11.SA,Xp Properties Fundo De Investimento Imobiliario,21.88
+GGLPF11.SA,Galapagos Feeder Logistico Fundo De Investimento ImobiliãRio Responsabilidade Limitada,105.65
+FFPAB11.SA,Fundo de Investimento Imobiliário Projeto Água Branca,210.51
+VVIUR11.SA,Vinci Imoveis Urbanos Fundo De Investimento Imobiliario,5.84
+RRPMG3.SA,Refinaria de Petróleos de Manguinhos S.A.,2.28
+FFLRP11.SA,Fundo de Investimento Imobiliário - FII Floripa Shopping,21.15
+RRBHY11.SA,Rio Bravo Credito Imobiliario High Yield Fundo De Investimento Imobiliario - FII,79.49
+BBLCA11.SA,Bluemacaw Catuai Triple A Fundo De Investimento Imobiliario,93.91
+CCXCI11.SA,Fundo De Investimento Imobiliario Caixa Carteira Imobiliaria,72.64
+KKIVO11.SA,Kilima Volkano Recebiveis Imobiliarios Fundo De Investimento Imobiliario,67.20
+BBLMG11.SA,Bluemacaw Logastica Fundo De Investimento ImobiliaRio,34.90
+VVVCO11.SA,XTED - TRX Edificios Corporativos Fundo Invest Imobiliario FII Fund,15.00
+RRBHG11.SA,Rio Bravo Credito Imobiliario IV Fundo De Investimento Imobiliario - FII,68.49
+AAZEV3.SA,Azevedo & Travassos S.A.,0.25
+CCYCR11.SA,Cyrela Credito - Fundo De Investimento Imobiliario,9.08
+RRNGO11.SA,Fundo de Investimento Imobiliário Rio Negro,54.60
+FFIGS11.SA,Fundo de Investimento Imobiliário General Shopping Ativo e Renda - FII,49.92
+SSAPI11.SA,Santander Títulos Imobiliarios Fundo De Investimento Imobiliario,9.20
+FFIIP11.SA,FII RB CAP ICI  ER,152.43
+AAZPL11.SA,FII AZPL    CI  ER,7.71
+RRBIR11.SA,Rb Capital Desenvolvimento Residencial IV Fundo De Investimento Imobiliario - FII,91.00
+GGSRF11.SA,GALAPAGOS SP SURF FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA,106.43
+PPATC11.SA,Patria Edificios Corporativos Fundo Investimento Imobiliario Fii,39.68
+AARRI11.SA,Fundo De Investimento Imobiliario Atrio Reit Recebiveis Imobiliarios,6.65
+VVCRI11.SA,Vinci Credit Securities Fundo De Investimento Imobiliario,7.59
+FFYTO11.SA,Fii Nch Brasil Recebiveis Imobiliarios Para Fii Fyto Recebiveis Imob,8.73
+HHOOT4.SA,Hotéis Othon S.A.,7.15
+FFAMB11.SA,Fundo de Investimento Imobiliario Edificio Almirante Barroso,"1,060.00"
+VVCRR11.SA,Vectis Renda Residencial Fundo De Investimento Imobiliario,64.82
+BBIED3.SA,Bahema Educação S.A.,4.84
+BBMIN4.SA,Banco Mercantil de Investimentos S.A.,20.45
+HHGBL11.SA,FII HGBL    CI  ER,9.36
+IIRIM11.SA,Iridium Fundo De Investimento Imobiliario,64.89
+EEURO11.SA,Coinvalores Dtvm Ltda.,323.45
+TTOKY3.SA,GRUPO TOKY  ON      NM,0.57
+PPMIS11.SA,Paramis Hedge Fund Fundo De Investimento Imobiliario - Fii,8.27
+PPDTC3.SA,Padtec Holding S.A.,1.52
+RRELG11.SA,Fundo De Investimento Imobiliario Rec Logistaca,64.60
+SSTYI11.SA,Strivo Yield Fundo De Investimento Imobiliario Responsabilidade Limitada,"1,410.00"
+RRSPD11.SA,RB Capital Desenvolvimento Residencial III Fundo De Investimento Imobillario - FII,799.88
+BBICE11.SA,FII BRIO CRECI  ER,888.00
+HHOFC11.SA,Hedge Office Income Fundo De Investimento Imobiliario,31.31
+ZZAVI11.SA,Zavit Real Estate Fund Fundo De Investimento Imobiliario,10.06
+TTRAD3.SA,TC S.A.,2.94
+FFISC11.SA,Fundo De Investimento Imobiliário SC  401,67.39
+WWTSP11.SA,Fundo De Investimento Imobiliario Ourinvest Re I,62.00
+CCALI3.SA,Construtora Adolpho Lindenberg S.A.,16.00
+FFAED11.SA,Fundo de Investimento Imobiliário - FII Anhanguera Educacional,160.99
+TTCSA3.SA,Tecnisa S.A.,1.51
+MMAGM11.SA,FII MAGM    CI,10.00
+AARND3.SA,Arandu Investimentos S.A.,0.78
+HHJCT11.SA,FII HJCT    CI  ER,110.00
+CCEDO4.SA,Companhia de Fiação e Tecidos Cedro e Cachoeira S.A.,9.80
+HHUCG11.SA,Fundo De Investimento Imobiliario Hospital Unimed Campina Grande,94.63
+AAZEV4.SA,Azevedo & Travassos S.A.,0.17
+AATSA11.SA,Cshg Atrium Shopping Santo Andr Fundo De Investimento Imobilirio Fii,58.50
+BBMLC11.SA,Fundo de Investimento Imobiliário Rio Bravo Renda Corporativa,102.50
+PPMAM3.SA,Paranapanema S.A.,0.72
+GGLCR11.SA,FII GLCR    CI,100.07
+HHCHG11.SA,Hectare Recebiveis High Grade Fundo De Investimento Imobiliario  Fii,82.99
+JJFLL11.SA,JFL Living Fundo De Investimento Imobiliario,65.00
+RRCSL3.SA,Recrusul S/A,3.06
+GGCRI11.SA,Galapagos Recebiveis Imobiliarios Fundo De Investimento Imobiliario,66.56
+NNEWU11.SA,Renda de Escritorios Fundo de Investimento Imobiliario - Cotas Fundo,107.00
+EEQIR11.SA,Eqi Recebiveis Imobiliarios Fundo De Investimento Imobiliario,8.59
+SSEQR11.SA,Sequoia III Renda Imobiliaria - Fundo De Investimento Imobiliaria,54.98
+AAZTE3.SA,Azevedo & Travassos Energia S.A.,0.27
+UUCAS3.SA,Unicasa Indústria de Móveis S.A.,1.38
+LLMAI11.SA,Domo Fundo de Investimento Imobiliário - FII,37.30
+KKEVE11.SA,Even II Kinea Fundo De Investimento Imobiliario,615.00
+RRBRI11.SA,Fundo De Investimento Imobiliario - FII RBR Desenvolvimento III,650.00
+ZZAGH11.SA,Zagros Multiestrategia Fundo De Investimento Imobiliario,9.92
+IINRD11.SA,Inter Residence Fundo DE Investimento Imobiliario FII,77.98
+EEGDB11.SA,FII EGDB    CI,"1,201.79"
+BBLMO11.SA,Bluemacaw Office Fund Ii - Fundo De Investimento Imobiliario,87.99
+BBRIP11.SA,Brio Real Estate III - Fundo De Investimento Imobiliario,396.99
+HHDEL11.SA,Hedge Desenvolvimento Logistico Fundo De Investimento Imobiliario,101.80
+TTMPS11.SA,Itau Tempus Fundo De Investimento Imobiliario,85.13
+CCEOC11.SA,Fundo de Investimento Imobiliário FII CEO Cyrela Fund,44.63
+SSNSY3.SA,Sansuy S.A.,10.20
+JJPPA11.SA,JPP Capital Recebíveis Imobiliários Fundo de Investimento Imobiliário,85.08
+RRBRD11.SA,RB Capital Renda II Fundo de Investimento Imobiliário - FII,41.14
+AADMF3.SA,CIABRASF - Cia. Brasileira de Serviços Financeiros S/A,13.00
+SSPTW11.SA,Sp Downtown Fundo de Investimento Imobiliário - FII,40.80
+LLRDI11.SA,FII LEBLON  CI,198.00
+VVVRI11.SA,V2 Renda Imobiliaria Fundo De Investimento Imobiliario - FII,91.00
+GGFSA3.SA,Gafisa S.A.,2.97
+AALMI11.SA,Fundo De Investimento Imobiliario Torre Almirante,647.00
+CCXCE11.SA,Fundo de Investimento Caixa Cedae,41.75
+MMAXR11.SA,Fundo De Investimentos Imobiliarios - Max Ret,63.00
+AARXD11.SA,Arx Dover Recebiveis Fundo De Investimento Imobiliario,7.86
+SSNME11.SA,Suno Multiestrategia Fundo De Investimento Imobiliario,9.48
+RRBFY11.SA,Rio Bravo For You Fundo De Investimento ImobiliaRio De Responsabilidade Limitada,71.50
+IINEP3.SA,Inepar S.A. Indústria e Construções,1.35
+EEXES11.SA,Exes Fundo De Investimento Imobiliario,9.49
+WWEST3.SA,Westwing Comércio Varejista S.A.,6.05
+VVOTS11.SA,Votorantim Securities Master Fundo Investimento Imobiliario Fii,79.59
+IITIT11.SA,Ifi E Inter Fundo De Investimento Imobiliario,72.90
+VVSLH11.SA,Versalhes Recebiveis Imobiliarios - Fundo De Investimento Imobiliario,2.18
+DDVFF11.SA,Fundo De Investimento Imobiliario - Devant Fundo De Fundos Imobiliarios,5.89
+EERPA11.SA,Europa 105 Fundo Investimento Imobiliario,126.98
+IIFCM3.SA,Infracommerce CXaaS S.A.,0.51
+HHCRI11.SA,Fundo de Investimento Imobiliário - FII Hospital da Criança,308.04
+RRBRS11.SA,Rio Bravo Renda Residencial Fundo De Investimentos Imobiliario,35.00
+FFLCR11.SA,Faria Lima Capital Recebiveis Imobiliarios I FII,95.01
+OOIBR3.SA,Oi S.A.,0.18
+CCNES11.SA,Fundo De Investimento Imobiliario Bm Cenesp - Fii - Inicio De Negociacao,1.69
+GGFDL11.SA,FII GFDL    CI,111.08
+WWPLZ11.SA,Fundo Investec IMB Shopping West Plaza Fund,51.23
+CCBOP11.SA,Castello Branco Off Park Fund In Im,40.00
+PPLAS3.SA,Plascar Participações Industriais S.A.,4.54
+LLUPA3.SA,Lupatech S.A.,1.18
+EEPAR3.SA,Embpar Participacoes S.A.,3.66
+LLSOP11.SA,FII LSOP    CI,10.35
+CCRFF11.SA,Caixa Rio Bravo Fundo De Fundos De Investimento Imobiliario II-Cotas,76.50
+GGLOG11.SA,Genial Logistica Fundo De Investimento Imobiliario,69.95
+EEDGA11.SA,Fundo de Investimento Imobiliario - FII Edificio Galeria,13.69
+RRZLC11.SA,FII RZLC    CI  ER,"1,005.97"
+IINEP4.SA,Inepar S.A. Indústria e Construções,1.10
+IITIP11.SA,Ifi D Inter Fundo De Investimento Imobiliario,66.55
+AATED3.SA,ATOM EDUC   ON,2.12
+BBNFS11.SA,Banrisul N Front Fund Investment IMO FII Fund,69.52
+IIBCR11.SA,Fundo De Investimento Imobiliario De Cri Integral Brei,50.52
+EEMET11.SA,Emet Multiestrategia Fundo De Investimento I Mobiliario Responsabilidade Limitada,9.53
+HHOSI11.SA,Fundo De Investimento Imobiliario Housi,83.61
+NNAVT11.SA,Navi Imobiliario Total Return Fundos De Investimento Imobiliario,75.25
+DDAYM11.SA,Daycoval Real Estate Multiestrategia Fundo De Investimento Imobiliario De Resp Ltd.,4.15
+RRCRI11.SA,Real Investor Recebiveis Imobiliários Fundo De Investimento Imobiliario Responsabilidade Limitada,102.79
+BBIPE11.SA,FII BRIO V  CI,"1,000.00"
+RRECD11.SA,FII RECD    CI  ER,7.70
+AAGXY3.SA,AgroGalaxy Participações S.A.,2.46
+CCARE11.SA,Brazilian Graveyard Death Care Services Fundo Investimento Imobiliario - Fii,5.63
+PPMRL11.SA,FII PMRL    CI,101.80
+AAPTO11.SA,Navi Residencial Fundo De Investimento Imobiliario,8.37
+DDOTZ3.SA,Dotz S.A.,2.94
+BBIME11.SA,Brio Multiestrategia - Fundo De Investimento Imobiliario,6.45
+CCPSH11.SA,Capitania Shoppings Fundo De Investimento Imobiliario,10.90
+MMGEL4.SA,Mangels Industrial S.A.,6.35
+SSNSY5.SA,Sansuy S.A.,2.61
+TTRXY11.SA,TRX Hedge Fund Fundo De Investimento Imobiliario - Responsabilidade Limitada,9.50
+EESTR4.SA,Manufatura de Brinquedos Estrela S.A.,4.40
+DDAMA11.SA,FII DAMA    CI  ER,7.62
+FFIXX11.SA,Fator IFIX Fundo Investimento Imobiliario - FII - Cotas Fund,95.33
+OOCRE11.SA,Octo Fundo De Investimento Imobiliario,81.00
+BBRIM11.SA,Brio Real Estate II - Fundo De Investimento Imobiliario - FII,275.00
+NNCRI11.SA,Navi Credito Imobiliario - Fundo De Investimento Imobiliario,8.50
+SSHOW3.SA,T4F Entretenimento S.A.,4.98
+RRSID3.SA,Rossi Residencial S.A.,1.65
+NNUTR3.SA,Nutriplant Indústria e Comércio S/A,2.46
+ZZAVC11.SA,Zavit Credito Imobiliario - Fundo De Investimento Imobiliario,9.05
+EEDFO11.SA,Fundo de Investimento Imobiliário Edifício Ourinvest,129.89
+HHGIC11.SA,Hgi Creditos Imobiliarios Fundo De Investimento,66.50
+VVIVR3.SA,Viver Incorporadora e Construtora S.A.,0.63
+DDPRO11.SA,Devant Properties Fundo De Investimento Imobiliario,6.12
+FFIEI3.SA,Fica Empreendimentos Imobiliarios S.A,12.60
+GGCDL11.SA,FII GCDL    CI,118.01
+RRECT11.SA,Fundo De Investimento Imobiliario - FII UBS Office,38.47
+NNORD3.SA,Nordon Indústrias Metalúrgicas S/A,4.50
+XXPSF11.SA,XP Selection Fundo De Fundos De Investimento Imobiliario - FII,6.81
+SSMRE11.SA,FII SMRE    CI  ER,64.50
+DDTCY3.SA,DTCOM - Direct to Company S.A.,2.50
+BBBFO11.SA,BB Fundos De Fundos - Fundo De Investimento Imobiliario,67.98
+AAFHF11.SA,AF Invest Real Estate Multiestrategia Fundo De Investimento Imobiliario Responsabilidade Limitada,10.07
+FFICT3.SA,Fictor Alimentos S.A.,0.60
+HHAGA3.SA,HAGA S/A Indústria e Comércio,2.16
+FFIVN11.SA,Vida Nova Fundo Investimento Immobiliere,2.66
+PPPLA11.SA,PPLA Participations Ltd.,0.55
+RRBVA11.SA,Fundo Invest Imobiliario Agencias Caixa - FII Fund,9.92
+CCTAX3.SA,Contax Participações S.A.,0.83
+TTELM11.SA,Tellus Multiestrategia Fundo De Investimento Imobiliario,9.92
+RRBOP11.SA,Fundo De Investimento Imobiliário Mercantil Do Brasil-fii -Inicio,208.60
+MMWET4.SA,Wetzel S.A.,10.26
+CCTXT11.SA,Fundo Invest Imobiliario Centro Textil Internacional - Cotas Fund,5.25
+RRMBS11.SA,Rec Master Fundo De Cri Cotas Amortizaveis Fundo De Investimento Imobiliario - Responsabilidade Ltd,8.55
+MMGHT11.SA,Fundo De Investimento Imobiliario Mogno Hoteis,15.30
+RRVEE3.SA,REVEE       ON      NM,1.96
+XXPCM11.SA,XP Corporate Macaé Fundo de Investimento Imobiliário - FII,8.00
+FFMOF11.SA,Fundos de Investimento Imobiliário Memorial Office Of Cotas,38.01
+CCTSA3.SA,Companhia Tecidos Santanense Ltda.,2.75
+HHAGA4.SA,HAGA S/A Indústria e Comércio,1.32
+CCXTL11.SA,Fundo De Investimento Imobiliário Caixa Trx Logística Renda,339.50
+CCTSA4.SA,Companhia Tecidos Santanense Ltda.,2.04
+PPEMA11.SA,Performa Real Estate Fundo De Investimento Imobiliario,32.00
+PPATA11.SA,Patagonia Capital Multiestrategia Fundo De Investimento Imobiliario,10.11
+RRBTS11.SA,Rb Capital Tfo Situs Fundo Investimento Imobiliario Fii,295.00
+TTRPL11.SA,Pafil Permuta Fundo De Investimento Imobiliario Responsabilidade Limitada,1.05
+PPABY11.SA,Fundo de Investimento Imobiliário Panamby,18.57
+SSCPF11.SA,Scp Fundo De Investimento NPV,3.06
+JJFEN3.SA,João Fortes Engenharia S.A.,0.97
+BBDLL4.SA,Bardella S.A. Indústrias Mecânicas,6.36
+BBSLT11.SA,Fundo De Investimentos Imobiliarios De Permuta Financeira Lote5 Senior Responsabilidade Limitada,87.70
+AAPXR11.SA,FII APXR    CI,100.00
+CCXRI11.SA,CXFI - Caixa Rio Bravo Fundo Fundos,66.89
+AAPXU11.SA,FII APXU    CI,95.00
+OONDA11.SA,Onda Invest Multiestratégia Fundo de Investimento Imobiliário Responsabilidade Limitada,9.00
+PPDGR3.SA,PDG Realty S.A. Empreendimentos e Participações,2.64
+UURHF11.SA,Urca Hedge Fund Estrategia Imobiliaria Fundo De Investimento Imobiliario – Responsabilidade Ltd.,74.41
+RRENV11.SA,Cpv Energia Fundo De Investimento Imobiliario Responsabilidade Limitada,7.70
+NNEXP3.SA,Nexpe Participações S.A.,2.88
+PPRSV11.SA,Fundo de Investimento Imobiliário Presidente Vargas,34.00
+TTXRX4.SA,Têxtil Renauxview S.A.,1.57
+KKNRE11.SA,Kinea II Real Estate Equity Fundo de Investimento Imobiliário,0.34
+PPLRI11.SA,Polo Fundo de Investimento Imobiliario – FII Recebiveis Imobiliarios IMO - Cotas Fund,6.02
+GGSHP3.SA,General Shopping e Outlets do Brasil S.A.,3.06
+SSJAU11.SA,Sj Au Logistica Fundo De Investimento Imobiliario,0.71
+OOSXB3.SA,OSX Brasil S.A.,1.75
+HHRDF11.SA,Hedge Realty Development Fundo Investimento Imobiliario FII,3.47
+PPRSN11.SA,Personale I Fundo Invest Imobiliario,7.00
+CCCTY3.SA,RDVC CITY   ON      NM,12.00
+RRBDS11.SA,RB Capital Development Residential Real Estate Investment Fund II,2.39
+AA1PL34.SA,APPLIED DGTLDRN,181.61
+AA1PO34.SA,APOLLO GLOBLDRN,43.20
+AA1PP34.SA,APPLOVIN CO DRN,63.31
+AA2LC34.SA,Alcon Inc.,41.28
+AA2MB34.SA,"Ambarella, Inc.",13.81
+AA2RE34.SA,Ares Management Corporation,71.15
+AA2RR34.SA,"Arrowhead Pharmaceuticals, Inc.",41.40
+AA2RW34.SA,"Arrow Electronics, Inc.",54.00
+AA2SO34.SA,"Academy Sports and Outdoors, Inc.",76.00
+AA2XO34.SA,"Axon Enterprise, Inc.",124.82
+AA2ZT34.SA,"Azenta, Inc.",12.55
+AAADA39.SA,21SH CARDANODRE,25.63
+AAAGR11.SA,FIAGRO AAGR CI,98.75
+AAALR3F.SA,ALLIAR      ON      NM,4.27
+AAAZQ11.SA,Az Quest Sole Fundo De Investimento Nas Cadeias Produtivas Do Agronegocio - Fiagro - Imobiliario,8.35
+AABCB10.SA,--,26.24
+AABCB10F.SA,--,24.80
+AABCB4F.SA,ABC BRASIL  PN      N2,26.97
+AABEV3F.SA,AMBEV S/A   ON,16.40
+AABGD39.SA,ABDEN GOLD  DRE,125.36
+AACWI11.SA,Trend Etf Msci Acwi Fundo De Indice,16.04
+AACWX39.SA,BlackRock Institutional Trust Co NA,65.28
+AADMF3F.SA,CIABRASF    ON      NM,12.96
+AAERI3F.SA,AERIS       ON      NM,2.98
+AAETH39.SA,21SH ETHEREUDRE,37.90
+AAFLT3F.SA,AFLUENTE T  ON,7.39
+AAGRI11.SA,Bb Etf Iagro Ffs B3 Fundo De Indice,47.74
+AAGRO3F.SA,BRASILAGRO  ON      NM,20.39
+AAGRX11.SA,Fiagro Agrx,8.86
+AAGXY3F.SA,AGROGALAXY  ON      NM,2.49
+AAHEB3F.SA,SPTURIS     ON,26.98
+AAHEB6F.SA,SPTURIS     PNB,50.00
+AAIEC11Q.SA,FII AUTONOMYCI  ER,54.10
+AALLD3F.SA,ALLIED      ON  EJ  NM,7.50
+AALOS3F.SA,ALLOS       ON      NM,30.50
+AALPA3F.SA,ALPARGATAS  ON      N1,12.74
+AALPA4F.SA,ALPARGATAS  PN      N1,14.94
+AALPK3F.SA,ESTAPAR     ON      NM,4.79
+AALPK3Q.SA,ESTAPAR     ON      NM,4.50
+AALUG11.SA,Investo Msci US Real Estate ETF Fundo De Investimento De Indice Investimento Exterior,41.76
+AALUP11F.SA,ALUPAR      UNT     N2,35.85
+AALUP3F.SA,ALUPAR      ON      N2,13.28
+AALUP4F.SA,ALUPAR      PN      N2,11.15
+AALZC11Q.SA,--,8.43
+AAMAR3F.SA,LOJAS MARISAON      NM,0.94
+AAMBP3F.SA,AMBIPAR     ON      NM,0.26
+AAMER3F.SA,AMERICANAS  ON      NM,5.55
+AAMOB3F.SA,AUTOMOB     ON      NM,13.20
+AANGV39.SA,VANECK ANGL DRE ED,51.50
+AANIM3F.SA,ANIMA       ON      NM,4.60
+AAREA11.SA,Btg Pactual Teva Itbr Ipca Rendimento Fundo De Índice,103.58
+AARGE11.SA,Investo Argentina Fundo De Índice,12.14
+AARGT39.SA,GX ARGENTINADRE,48.19
+AARML3F.SA,ARMAC       ON      NM,5.46
+AARND3F.SA,ARANDU      ON      NM,0.80
+AASAI3F.SA,ASSAI       ON      NM,9.95
+AATED3F.SA,ATOM EDUC   ON,2.12
+AAUAU3F.SA,PETZCOBASI  ON      NM,3.05
+AAUPO11.SA,Btg Pactual Teva Auvp Itbr Liquidez Fundo De Indice,102.42
+AAURE3F.SA,AUREN       ON      NM,11.74
+AAURO11.SA,Buena Vista Neos Gold High Income I - Cotas ETF Fund,119.40
+AAUVP11.SA,Btg Pactual Teva Auvp Acoes Fundamentos Fundo De Indice,132.90
+AAVLL3F.SA,ALPHAVILLE  ON      NM,0.85
+AAXIA3F.SA,AXIA ENERGIAON      N1,58.70
+AAXIA5F.SA,AXIA ENERGIAPNA     N1,65.99
+AAXIA6F.SA,AXIA ENERGIAPNB     N1,61.54
+AAXIA7.SA,AXIA Energia SA,56.46
+AAXIA7F.SA,AXIA ENERGIAPNC     N1,56.59
+AAZEV3F.SA,AZEVEDO     ON,0.26
+AAZEV4F.SA,AZEVEDO     PN,0.18
+AAZIN11.SA,Az Quest Infra-Yield Ii Fundo De Investimento Em Participacoes Em Infraestrutura,101.80
+AAZTE3F.SA,AZT ENERGIA ON,0.28
+AAZUL53F.SA,AZUL        ON  P   N2,3.28
+AAZZA3F.SA,AZZAS 2154  ON      NM,24.50
+BB2AH34.SA,BOOZALLEN HHDRN,46.47
+BB2AP34.SA,Credicorp Ltd.,140.67
+BB2LN34.SA,"BlackLine, Inc.",16.80
+BB3BR11.SA,IT NOW B3BR+CI,65.55
+BB3SA3F.SA,B3          ON      NM,17.43
+BB5MB11.SA,ETF Bradesco Ima-B5 Plus Fundo De Indice,127.33
+BB5P211.SA,It Now Ima-B5 P2 Fundo De Indice,103.51
+BBAAX39.SA,Ishares Msci All Country Asia Ex Japan ETF,54.24
+BBACW39.SA,Ishares Msci Acwi ETF,76.10
+BBAER39.SA,Ishares Us Aerospace & Defense ETF,61.20
+BBAGG39.SA,BKR US AGGREDRE ED,52.95
+BBAIQ39.SA,GX AI TECH  DRE,43.21
+BBALM3F.SA,BAUMER      ON,25.46
+BBALM4F.SA,BAUMER      PN,18.39
+BBAOR39.SA,BKR BAL ALOCDRE,70.10
+BBARY39.SA,BKR FUT AIT DRE,134.55
+BBASK39.SA,21SH BASKET DRE,32.47
+BBAUH4F.SA,EXCELSIOR   PN,93.30
+BBAZA3F.SA,AMAZONIA    ON,86.09
+BBBAJ39.SA,JP BTB ASIA DRE,64.80
+BBBAS3F.SA,BRASIL      ON      NM,25.50
+BBBDC3F.SA,BRADESCO    ON  EJ  N1,18.15
+BBBDC4F.SA,BRADESCO    PN  EJ  N1,21.10
+BBBGO11.SA,Bb Fundo De Investimento De Credito Fiagro-Imobiliario,79.19
+BBBOI11.SA,Bb Etf Indice Futuro De Boi Gordo B3 Fundo De Indice,10.34
+BBBOV11.SA,Bb Etf Ibovespa Fundo De Indice,97.65
+BBBSD11.SA,BB ETF S&P Dividendos Brasil Fundo de Indice,146.61
+BBBSE3F.SA,BBSEGURIDADEON      NM,34.12
+BBBUG39.SA,Global X Funds,48.35
+BBBVH12.SA,Fundo de Investimento em Direitos Creditorios BB Votorantim Highland Infraestrutura,260.00
+BBCAT39.SA,GX CATHOLVALDRE,42.92
+BBCHI39.SA,Ishares Msci China Etf,39.37
+BBCIC11.SA,B-Index Morningstar Setores Ciclicos Brasil Fundo De Indice,146.42
+BBCLO39.SA,Global X Funds,32.87
+BBCOM39.SA,BKR COMT ROLDRE,46.40
+BBCPX39.SA,Global X Funds,45.56
+BBCTE39.SA,GX CLEANCH  DRE,38.32
+BBCWV39.SA,"iShares, Inc. - iShares MSCI Global Min Vol Factor ETF",67.44
+BBDAP11.SA,Bb Etf Indice Dap5 B3 Fundo De Indice,12.23
+BBDEF11.SA,B-Index Morningstar Setores Defensivos Brasil Fundo De Indice,174.45
+BBDIF11.SA,Btg Pactual Divida Infra FICF Incentivados De Investimento Em Infraestrutura Renda Fixa Credito Priv,76.32
+BBDIV11.SA,Btg Pactual Infraestrutura Dividendos Fundo De Investimento Em Participacoes Em Infraestrutura,39.35
+BBDLL4F.SA,BARDELLA    PN,6.62
+BBDOM11.SA,Investo Marketvector Brazil Domestic Exposure Etf - Fundo De Investimento De Indice,146.88
+BBDVD39.SA,Global X Funds,51.16
+BBDVY39.SA,Ishares Select Dividend Etf,82.24
+BBECH39.SA,BKR CHILE   DRE,76.24
+BBEEF3F.SA,MINERVA     ON      NM,5.72
+BBEEM39.SA,Ishares Msci Emerging Markets ETF,53.19
+BBEES3F.SA,BANESTES    ON  EJ,8.40
+BBEES4F.SA,BANESTES    PN  EJ,8.37
+BBEFA39.SA,Ishares Msci Eafe ETF,68.05
+BBEFG39.SA,iShares Trust - iShares MSCI EAFE Growth ETF,62.83
+BBEFV39.SA,iShares Trust - iShares MSCI EAFE Value ETF,68.45
+BBEGD39.SA,TRTMSCI EAFEDRE,66.80
+BBEGE39.SA,"iShares, Inc. - iShares ESG Aware MSCI EM ETF",64.40
+BBEGU39.SA,Ishares Trust Ishares Esg Aware Msci Usa ETF,77.10
+BBEIS39.SA,MSCI ISRAEL DRE,64.68
+BBEMC39.SA,BKR EME XCHIDRE,87.59
+BBEMV39.SA,"iShares, Inc. - iShares MSCI Emerging Markets Min Vol Factor ETF",60.00
+BBEPP39.SA,BKR MSCI JPNDRE,72.44
+BBEST11.SA,Investo Brazil Besst Quality Fundo De Indice,125.87
+BBEUW39.SA,BKR EQUALWG DRE,70.35
+BBEWA39.SA,"iShares, Inc. - iShares MSCI Australia ETF",50.50
+BBEWC39.SA,"iShares, Inc. - iShares MSCI Canada ETF",73.25
+BBEWD39.SA,MSCI SWEDEN DRE,56.58
+BBEWG39.SA,Ishares Msci Germany ETF,76.40
+BBEWH39.SA,Ishares Msci Hong Kong Etf,41.24
+BBEWI39.SA,MSCI ITALY  DRE,60.33
+BBEWJ39.SA,Ishares Msci Japan Etf,61.30
+BBEWL39.SA,"iShares, Inc. - iShares MSCI Switzerland ETF",66.80
+BBEWN39.SA,MSCINETHERLDDRE,66.22
+BBEWO39.SA,MSCI AUSTRIADRE,68.21
+BBEWP39.SA,LKR/SGD,97.50
+BBEWQ39.SA,"iShares, Inc. - iShares MSCI France ETF",60.87
+BBEWS39.SA,BlackRock Institutional Trust Co NA,54.00
+BBEWT39.SA,Ishares Msci Taiwan ETF,61.39
+BBEWU39.SA,Ishares Msci United Kingdom Etf,81.25
+BBEWW39.SA,Ishares Msci Mexico ETF,104.35
+BBEWY39.SA,Ishares Msci South Korea Etf,87.06
+BBEWZ39.SA,Ishares Msci Brazil ETF,66.24
+BBEZA39.SA,MSCI SAFRICADRE,65.75
+BBEZU39.SA,Ishares Msci Eurozone ETF,87.85
+BBFAV39.SA,iShares Trust - iShares MSCI EAFE Min Vol Factor ETF,59.80
+BBFCG39.SA,FT NAT GAS  DRE,68.00
+BBFDA39.SA,--,74.40
+BBFIW39.SA,FT WATER    DRE,58.88
+BBFNX39.SA,Global X Funds,23.69
+BBFXI39.SA,iShares Trust - iShares China Large-Cap ETF,40.12
+BBGIP1F.SA,"BANESE      DO   35,18",14.50
+BBGIP2.SA,"BANESE      DP   30,03",4.00
+BBGIP2F.SA,"BANESE      DP   30,03",3.95
+BBGIP3F.SA,BANESE      ON,51.74
+BBGIP4F.SA,BANESE      PN,34.28
+BBGLC39.SA,BKR GLOB100 DRE,83.25
+BBGNO39.SA,GX GENOMBIOTDRE,40.44
+BBGOV39.SA,BKR US TREASDRE ED,40.44
+BBGOZ39.SA,BKR TRSTRIPSDRE ED,50.70
+BBGRT39.SA,iShares Trust - iShares Global REIT ETF,47.00
+BBGWH39.SA,iShares Trust - iShares Core Dividend Growth ETF,77.49
+BBHDV39.SA,BlackRock Institutional Trust Company NA,72.50
+BBHER39.SA,Global X Funds,35.50
+BBHIA3F.SA,CASAS BAHIA ON      NM,2.95
+BBHVN34.SA,BIOHAVEN LTDDRN,20.28
+BBHYG39.SA,iShares Trust - iShares iBoxx $ High Yield Corporate Bond ETF,52.95
+BBHYS39.SA,PCOM 0T5 HY DRE ED,49.40
+BBIAU39.SA,Ishares Gold Trust,123.87
+BBIBB39.SA,Ishares Nasdaq Biotechnology Etf,60.00
+BBICL39.SA,iShares Trust - iShares Global Clean Energy ETF,48.15
+BBIDB11.SA,Inter Infra FI Cotas Fundos Incentivados De Investimento Infraestrutura Renda Fixa Credito Privado,80.35
+BBIDV39.SA,BKR INTL SLDDRE,75.75
+BBIED3F.SA,BIOMA EDUC  ON      MA,5.17
+BBIEF39.SA,Ishares Core Msci Eafe ETF,63.80
+BBIEI39.SA,BKR 3 7 YRTRDRE ED,53.40
+BBIEM39.SA,Ishares Core Msci Emerging Markets ETF,65.19
+BBIEO39.SA,BKR OIL GAS DRE,54.48
+BBIET39.SA,BKR TECHSOFTDRE,15.51
+BBIEU39.SA,Ishares Core Msci Europe ETF,65.58
+BBIEV39.SA,iShares Trust - iShares Europe ETF,76.35
+BBIGS39.SA,BKR 1 5YGRCODRE ED,55.74
+BBIHF39.SA,BKR HEALTHPRDRE,8.51
+BBIHI39.SA,iShares Trust - iShares U.S. Medical Devices ETF,8.62
+BBIJR39.SA,Ishares Core S&P Small-Cap Etf,85.85
+BBIJS39.SA,BlackRock Institutional Trust Company NA,80.66
+BBIJT39.SA,SP SCAP 600GDRE,53.55
+BBILF39.SA,Ishares Latin America 40 ETF,62.96
+BBINC11.SA,Brad Fic Firf Invest Infra Cdi Cp Resp Ltda,102.90
+BBIOM3F.SA,BIOMM       ON      MA,6.02
+BBIPC39.SA,BKR CORPACIFDRE,82.80
+BBITC11.SA,Btg Pactual Teva Bitcoin Fundo De Indice,59.23
+BBITH11.SA,Hashdex Nasdaq Bitcoin Reference Rate Fundo De Indice,81.70
+BBITI11.SA,It Now Bloomberg Galaxy Bitcoin Fundo De Indice,32.50
+BBITO39.SA,Ishares Core S&P Total Us Stock Market Etf,78.55
+BBIVB39.SA,Ishares Core S&P 500 Etf,89.81
+BBIVE39.SA,iShares Trust - iShares S&P 500 Value ETF,76.85
+BBIVW39.SA,iShares Trust - iShares S&P 500 Growth ETF,78.73
+BBIWM39.SA,Ishares Russell 2000 Etf,68.53
+BBIXC39.SA,BlackRock Institutional Trust Company NA,65.52
+BBIXG39.SA,iShares Trust - iShares Global Financials ETF,78.65
+BBIXJ39.SA,Ishares Global Healthcare Etf,65.72
+BBIXN39.SA,Ishares Global Tech ETF,18.58
+BBIXU39.SA,BKR TI STOCKDRE,80.82
+BBIYC39.SA,BlackRock Institutional Trust Company NA,105.78
+BBIYE39.SA,iShares Trust - iShares U.S. Energy ETF,100.00
+BBIYF39.SA,Ishares Us Financials Etf,43.09
+BBIYJ39.SA,BlackRock Institutional Trust Company NA,83.65
+BBIYK39.SA,BlackRock Institutional Trust Company NA,21.52
+BBIYT39.SA,BKR 7 10 YRTDRE ED,50.92
+BBIYW39.SA,Ishares US Technology ETF,28.53
+BBIYZ39.SA,US TELECOM  DRE,69.00
+BBIZD11.SA,Investo Mvis®Us Business Development Companies Index ETF Fundo De Indice,79.68
+BBJQU39.SA,JP QLT FACT DRE,82.56
+BBKCH39.SA,Global X Funds,28.68
+BBKSA39.SA,BlackRock Institutional Trust Company NA,51.30
+BBKWB39.SA,KR CSI CHINADRE,171.94
+BBKXI39.SA,BlackRock Institutional Trust Company NA,75.68
+BBLAU3F.SA,BLAU        ON      NM,10.47
+BBLBT39.SA,Global X Funds,47.51
+BBLFT11.SA,BL03 Fundo Invest Financeiro,104.64
+BBLPA39.SA,Global X Funds,34.53
+BBLQD39.SA,iShares Trust - iShares iBoxx $ Investment Grade Corporate Bond ETF,58.43
+BBMBB39.SA,BKR MBS     DRE ED,50.53
+BBMEB3F.SA,MERCANTIL   ON      N1,55.99
+BBMEB4F.SA,MERCANTIL   PN      N1,68.24
+BBMEB9.SA,Banco Mercantil do Brasil S.A.,55.99
+BBMEB9F.SA,MERCANTIL   ON  REC N1,52.00
+BBMGB2.SA,"BANCO BMG   DP    4,35",0.55
+BBMGB2F.SA,"BANCO BMG   DP    4,35",0.49
+BBMGB4F.SA,BANCO BMG   PN      N1,4.90
+BBMIL39.SA,GX MILLECONMDRE,54.48
+BBMIN3F.SA,MERC INVEST ON,22.79
+BBMIN4F.SA,MERC INVEST PN,20.15
+BBMMT11.SA,B - Index Morningstar Brasil Momento Fundo,167.78
+BBMOB3F.SA,BEMOBI TECH ON      NM,23.88
+BBMTU39.SA,iShares Trust - iShares MSCI USA Momentum Factor ETF,65.66
+BBNBR3F.SA,NORD BRASIL ON,128.00
+BBNDA39.SA,Ishares Msci India Etf,68.98
+BBNDX11.SA,Investo Bloomberg Global Bond ETF Fundo De Investimento De Indice - Investimento No Exterior,101.30
+BBOBR4F.SA,BOMBRIL     PN,1.22
+BBODB11.SA,Bocaina Infra- Fundo de Investimento em Cotas de Fundos Incentivados de Investimento em,8.00
+BBOEF39.SA,iShares Trust - iShares S&P 100 ETF,87.58
+BBOL511.SA,B-Index ETF Ima-B 5 P2 Fundo de Indice - Responsabilidade Limitada,104.58
+BBOTZ39.SA,Global X Funds,50.16
+BBOVA11.SA,iShares Ibovespa Index Fund,182.98
+BBOVB11.SA,ETF Bradesco Ibovespa Fundo De Indice,190.44
+BBOVS11.SA,Safra Ibovespa Fundo De Indice,143.77
+BBOVV11.SA,It Now Ibovespa Fundo de Indice,191.80
+BBOVX11.SA,Trend ETF Ibovespa Fundo De Indice,19.09
+BBPAC11F.SA,BTGP BANCO  UNT     N2,59.23
+BBPAC3F.SA,BTGP BANCO  ON      N2,42.80
+BBPAC5F.SA,BTGP BANCO  PNA     N2,11.10
+BBPIC39.SA,BlackRock Institutional Trust Company NA,79.44
+BBPRE11.SA,"B-Index ETF Irf-M P2 Fundo de Índice - Responsabilidade, LTDA",105.48
+BBPVE39.SA,Global X Funds,47.93
+BBQCL39.SA,FT NSQ GREENDRE,32.20
+BBQQW39.SA,FT NASD100EQDRE,73.35
+BBQUA39.SA,iShares Trust - iShares MSCI USA Quality Factor ETF,70.76
+BBQYL39.SA,Global X Funds,30.50
+BBRAP3F.SA,BRADESPAR   ON      N1,20.59
+BBRAP4F.SA,BRADESPAR   PN      N1,23.96
+BBRAV3F.SA,BRAVA       ON      NM,17.55
+BBRAX11.SA,iShares IBrX-Índice Brasil (IBrX-100) Index Fund,155.94
+BBRAZ11.SA,Bb Etf Ibovespa B3 Br+ Fundo De Indice Responsabilidade Limitada,13.12
+BBRBI11.SA,BRBI BR Partners S.A.,18.56
+BBRBI11F.SA,BR PARTNERS UNT     N2,18.45
+BBRCO11.SA,Bresco - Fundo De Investimento Imobiliario,118.42
+BBRCR11Q.SA,FII BC FUND CI  ER,48.43
+BBREW11.SA,B-Index Morningstar Brasil Pesos Iguais Fundo De Indice,155.24
+BBRFT11.SA,Bradesco Farmtech Fundo De Investimento Nas Cadeias Produtivas Agroindustriais Fiagro - Dc,90.00
+BBRKM3F.SA,BRASKEM     ON      N1,9.32
+BBRKM5F.SA,BRASKEM     PNA     N1,9.80
+BBRKM6F.SA,BRASKEM     PNB     N1,8.39
+BBRSR3F.SA,BANRISUL    ON      N1,19.05
+BBRSR5F.SA,BANRISUL    PNA     N1,18.90
+BBRSR6F.SA,BANRISUL    PNB     N1,18.46
+BBRST3F.SA,BRISANET    ON      NM,3.12
+BBRXC11.SA,"BTG Pactual Teva IABR Selector Fundo de Índice - Responsabilidade, LTDA",147.57
+BBRZP11.SA,Brz Infra Portos Fundo De Investimento Em Participacoes Em Infraestrutura,169.37
+BBSDV39.SA,Global X Funds,67.97
+BBSHV39.SA,BKR 0 1 SHV DRE ED,57.59
+BBSHY39.SA,BKR 1 3 YRTRDRE ED,53.67
+BBSIL39.SA,Global X Funds,52.68
+BBSIZ39.SA,iShares Trust - iShares MSCI USA Size Factor ETF,58.50
+BBSLI3F.SA,BRB BANCO   ON,5.08
+BBSLI4F.SA,BRB BANCO   PN,4.73
+BBSLV39.SA,Ishares Silver Trust,121.40
+BBSOX39.SA,iShares Trust - iShares Semiconductor ETF,46.28
+BBSRE39.SA,GX SUDIVREITDRE ED,39.47
+BBSTI39.SA,BKR STIP    DRE,53.65
+BBSUS39.SA,iShares Trust - iShares ESG MSCI USA Leaders ETF,79.98
+BBTAG11.SA,Btg Pactual Credito Agrocola Fundo De Investimento Em Cotas Fiagro Direitos Creditorios,106.50
+BBTFL39.SA,BKR FLOT RTEDRE ED,52.84
+BBTHI11.SA,Btg Pactual Hoteis Fundo De Investimento Imobiliario,43.05
+BBTIP39.SA,BlackRock Institutional Trust Co NA,58.01
+BBTLT39.SA,BKR 20YR TRSDRE ED,31.31
+BBUAE39.SA,BKR MSCI UAEDRE,57.45
+BBULZ11.SA,GENIAL HBETACI,107.22
+BBURA39.SA,Global X Funds,45.39
+BBURT39.SA,"iShares, Inc. - iShares MSCI World ETF",66.41
+BBUSM39.SA,Ishares Msci Usa Min Vol Factor ETF,62.52
+BBUSR39.SA,iShares Trust - iShares Core U.S. REIT ETF,53.65
+BBUTL39.SA,BlackRock Institutional Trust Company NA,76.90
+BBVBR11.SA,INVCONSTQBRLCI,23.22
+BBVLU39.SA,iShares Trust - iShares MSCI USA Value Factor ETF,78.80
+BBXPO11.SA,Investo Marketvector Brazil Global Exposure Etf – Fundo De Investimento De Indice,161.57
+BBXTC39.SA,Ishares Exponential Technologies ETF,65.52
+CC1CJ34.SA,CAMECO CORP DRN,119.52
+CC1RH34.SA,CRH PLC     DRN,109.23
+CC2AC34.SA,CACI International Inc,3.87
+CC2CA34.SA,"Coca-Cola FEMSA, S.A.B. de C.V.",116.96
+CC2EM34.SA,"CEMEX, S.A.B. de C.V.",65.25
+CC2GN34.SA,Cognex Corporation,38.55
+CC2HP34.SA,"ChargePoint Holdings, Inc.",10.04
+CC2OL34.SA,Grupo Cibest S.A.,100.90
+CC2OU34.SA,"Coursera, Inc.",14.69
+CC2RN34.SA,Cerence Inc.,9.97
+CC2RS34.SA,CRISPR Therapeutics AG,34.95
+CC2RW34.SA,"CrowdStrike Holdings, Inc.",101.01
+CCACR11.SA,Supernova Fundo De Investimento Imobiliario - Recebiveis Imobiliarios,78.33
+CCALI3F.SA,CONST A LINDON,17.06
+CCAMB3F.SA,CAMBUCI     ON,9.52
+CCAML3F.SA,MSCI AUSTRIA SMALL CAP NETR EUR,6.53
+CCAPE11.SA,ISHARES BOVESPA BR+ CAP 5% B3 CLASSE DE ÍNDICE - RESPONSABILIDADE LIMITADA,152.57
+CCASA11.SA,Buena Vista Neos Real Estate High Income Index Fundo De Indice - Responsabilidade Limitada,92.23
+CCASH3F.SA,MELIUZ      ON      NM,3.51
+CCASN3F.SA,CASAN       ON,16.75
+CCAUT11.SA,Smrt11 Fundo De Investimento Em Cotas De Fundo De Investimento Em Direitos Creditorios,100.00
+CCBAV3F.SA,CBA         ON      NM,10.06
+CCBEE3F.SA,AMPLA ENERG ON,10.68
+CCBTC39.SA,21SH BITCOINDRE,27.98
+CCCTY3F.SA,RDVC CITY   ON      NM,9.00
+CCDII11.SA,Sparta Infra Cdi Fd De Invest Em Cotas De Fd Incentivados De Inv Em Infraestrutura Renda Fixa Cr Pri,106.15
+CCEAB3F.SA,CEA MODAS   ON      NM,12.75
+CCEBR3F.SA,CEB         ON,30.29
+CCEBR5F.SA,CEB         PNA,28.20
+CCEBR6F.SA,CEB         PNB,30.65
+CCEDO3F.SA,CEDRO       ON      N1,12.85
+CCEDO4F.SA,CEDRO       PN      N1,10.01
+CCEEB3F.SA,COELBA      ON,45.84
+CCEEB5F.SA,COELBA      PNA,42.50
+CCEED3F.SA,"CEEE,D      ON",8.51
+CCEGR3F.SA,CEG         ON,63.00
+CCGAS3F.SA,COMGAS      ON,132.62
+CCGAS5F.SA,COMGAS      PNA,133.50
+CCGRA3F.SA,GRAZZIOTIN  ON,27.01
+CCGRA4F.SA,GRAZZIOTIN  PN,26.70
+CCHIP11.SA,INVESTO ETF US LISTED SEMICONDUCTOR 25 INDEX CLASSE DE ÍNDICE IE RESP LIMITADA,26.27
+CCLOB11.SA,Btg Pactual Clo Smart Fundo De ÃNdice Â€“ Responsabilidade Limitada,95.23
+CCLOV34.SA,"Clover Health Investments, Corp.",10.46
+CCLSC3F.SA,CELESC      ON      N2,131.01
+CCLSC4F.SA,CELESC      PN      N2,143.80
+CCMDB11.SA,Btg Pactual Teva Acoes Commodities Brasil Fundo De Indice,16.59
+CCMIG3F.SA,CEMIG       ON      N1,15.21
+CCMIG4F.SA,CEMIG       PN      N1,11.73
+CCMIN3F.SA,CSNMINERACAOON      N2,5.50
+CCOCE3F.SA,COELCE      ON,36.00
+CCOCE5F.SA,COELCE      PNA,30.80
+CCOGN3F.SA,STX TR.EXP.UK 50 NR DL,3.51
+CCOIN11.SA,Buena Vista Neos Bitcoin High Income Index Fundo De Indice Responsabilidade Limitada,47.87
+CCOPN11.SA,Copernico Fundo De Investimento Em Participacoes Em Infraestrutura,42.81
+CCORN11.SA,Bb Etf Indice Futuro De Milho B3 Fundo De Indice,7.24
+CCPFE3F.SA,CPFL ENERGIAON      NM,50.57
+CCPFE3Q.SA,CPFL ENERGIAON      NM,49.40
+CCPLE3F.SA,COPEL       ON      NM,14.00
+CCPTI11.SA,Capitania Infra Fic Fi Infra Rf Cp,89.90
+CCPTR11.SA,Capitania Agro Strategies - Fiagro - Imobiliario Fund,8.40
+CCRAA11.SA,Sparta Fiagro Fundo De Investimento Nas Cadeias Produtivas Agroindustriais - Imobiliario,100.76
+CCRPG3F.SA,CRISTAL     ON,18.21
+CCRPG5F.SA,CRISTAL     PNA,19.50
+CCRPG6F.SA,CRISTAL     PNB,18.75
+CCRPT11.SA,Empiricus Teva Criptomoedas Top20 Fundo De Índice,13.49
+CCSAN3F.SA,COSAN       ON      NM,6.16
+CCSED3F.SA,CRUZEIRO EDUON      NM,6.43
+CCSMG3F.SA,COPASA      ON      NM,55.76
+CCSNA3F.SA,SID NACIONALON  ATZ,8.76
+CCSUD3F.SA,CSU DIGITAL ON      NM,19.06
+CCTAX3F.SA,CONTAX      ON,0.88
+CCTKA3F.SA,KARSTEN     ON,50.00
+CCTKA4F.SA,KARSTEN     PN,49.30
+CCTSA3F.SA,SANTANENSE  ON,2.48
+CCTSA4F.SA,SANTANENSE  PN,2.01
+CCURY3F.SA,CURY S/A    ON  ED  NM,40.91
+CCVCB3F.SA,CVC BRASIL  ON      NM,2.48
+CCVFL15.SA,FII CVFL    CI,"1,055.00"
+CCXSE3F.SA,CAIXA SEGURION      NM,17.99
+CCYRE3F.SA,CYRELA REALTON      NM,30.80
+CCYRE4.SA,Cyrela Brazil Realty S.A. Empreendimentos e Participações,29.11
+CCYRE4F.SA,CYRELA REALTPN      NM,28.80
+DD2OC34.SA,"Doximity, Inc.",23.98
+DD2TC34.SA,"Dynatrace, Inc.",24.09
+DDASA3F.SA,DASA        ON      NM,4.14
+DDBAG34.SA,Deutsche Bank Aktiengesellschaft,184.68
+DDCRA11.SA,Devant Fundo De Investimento Nas Cadeias Produtivas Agroindustriais - Fiagro-Imobiliario,7.52
+DDEBB11.SA,BTG Pactual Teva Debentures Di Fundo De Indice,15.88
+DDEFI11.SA,Hashdex Defi Index Fundo De Indice,13.02
+DDEFT31.SA,DeFi Technologies Inc.,3.93
+DDESK3F.SA,NASDAQ Global Chemicals NTR Ind,16.03
+DDEXP3F.SA,DEXXOS PAR  ON      N1,7.65
+DDEXP4F.SA,DEXXOS PAR  PN      N1,7.75
+DDIRR3F.SA,DIRECIONAL  ON      NM,16.24
+DDIVD11.SA,It Now Idiv Renda Dividendos Fundo De Indice – Responsabilidade Limitada,66.39
+DDIVO11.SA,It Now IDIV Index Fund,132.48
+DDIVS11.SA,Sparta Infra Inflacao Longa In Fundo De I Em Cotas De Fundos De In Em Infraestrutura Renda Fixa,103.70
+DDMVF3F.SA,D1000VFARMA ON      NM,6.75
+DDOHL3F.SA,DOHLER      ON,6.80
+DDOHL4F.SA,DOHLER      PN,3.78
+DDOLA11.SA,BB ETF Indice Futuro De Dolar S&P B3 Fundo De Indice Responsabilidade Limitada,10.09
+DDOLB11.SA,BTG SP DOLARCI,96.01
+DDOLL39.SA,iShares Trust,52.41
+DDOLX11.SA,TREND DOLAR CI,47.49
+DDOTZ3F.SA,DOTZ SA     ON      NM,2.89
+DDTCR39.SA,GX DATAINFRADRE,68.18
+DDTCY3F.SA,"DTCOM,DIRECTON",2.55
+DDUOL34.SA,DUOLINGO INCDRN,19.00
+DDVER11.SA,Bb Etf Indice Diversidade B3 Investimento Sustentavel Fundo De Indice,13.87
+DDXCO3F.SA,DEXCO       ON      NM,5.53
+EE2AG34.SA,Eagle Materials Inc.,74.40
+EE2NP34.SA,"Enphase Energy, Inc.",9.11
+EE2PA34.SA,"EPAM Systems, Inc.",16.50
+EE2XA34.SA,Exact Sciences Corporation,53.88
+EE2XE34.SA,"Exelixis, Inc.",115.08
+EEALT3F.SA,ACO ALTONA  ON,14.24
+EEALT4F.SA,ACO ALTONA  PN,14.15
+EEBIT11.SA,Empiricus Teva Bitcoin Fundo De Indice - Responsabilidade Limitada,60.25
+EECOO11.SA,iShares Índice Carbono Eficiente (ICO2) Brasil - Fundo de Índice,161.40
+EECOR3F.SA,ECORODOVIAS ON      NM,10.30
+EEETH11.SA,BTG Pactual Teva Ethereum Fundo De Indice,44.62
+EEGAF11.SA,Ecoagro I Fundo De Investimento Nas Cadeias Produtivas Agroindustriais Fiagro Imobiliario,98.97
+EEGIE3F.SA,ENGIE BRASILON      NM,33.70
+EEKTR3F.SA,ELEKTRO     ON,40.10
+EEKTR4F.SA,ELEKTRO     PN,41.83
+EELAS11.SA,Safra ETF Mulheres Na Lideranca Fundo De Indice De Acoes,180.79
+EEMAE4F.SA,EMAE        PN,48.49
+EEMBJ3F.SA,EMBRAER     ON      NM,92.60
+EENDD11.SA,Endurance Debt Fundo De Investimento Em Participacoes Em Infraestrutura,113.35
+EENEV3F.SA,ENEVA       ON      NM,21.55
+EENEV3Q.SA,ENEVA       ON      NM,20.95
+EENGI11F.SA,ENERGISA    UNT     N2,51.85
+EENGI3F.SA,ENERGISA    ON      N2,12.78
+EENGI4F.SA,ENERGISA    PN      N2,9.70
+EENJU3F.SA,ENJOEI      ON      NM,1.04
+EENMT3F.SA,ENERGISA MT ON,47.48
+EENMT4F.SA,ENERGISA MT PN,51.99
+EEPAR3F.SA,EMBPAR S/A  ON,3.66
+EEQMA3BF.SA,EQUATORIAL MARANHA,30.99
+EEQPA3F.SA,EQTL PARA   ON,6.30
+EEQPA5F.SA,EQTL PARA   PNA,11.00
+EEQPA7F.SA,EQTL PARA   PNC,9.90
+EEQTL3F.SA,EQUATORIAL  ON      NM,40.98
+EESGB11.SA,Btg Pactual Esg Fundo De Indice S P Brazil Esg,132.01
+EESPA3F.SA,ESPACOLASER ON      NM,1.05
+EESTR4F.SA,ESTRELA     PN,4.41
+EETER3F.SA,ETERNIT     ON      NM,4.05
+EETHA39.SA,BKR ETHEREUMDRE,26.93
+EETHE11.SA,Hashdex Nasdaq Ethereum Reference Price Fundo De Indice,30.97
+EETHY11.SA,Buena Vista Dex Vettafi Neos Ethereum High Income Fundo De ÃNdice De Responsabilidade Limitada,66.05
+EEUCA3F.SA,Nasdaq US Benchmark Financial S,21.57
+EEUCA4F.SA,EUCATEX     PN      N1,20.19
+EEVEN3F.SA,EVEN        ON      NM,8.24
+EEVTC31.SA,EVERTEC INC DR1,137.00
+EEWBZ11.SA,ISHARES BOVESPA BR+ EQUAL WEIGHT B3 CLASSE DE ÍNDICE - RESPONSABILIDADE LIMITADA,142.44
+EEWJV39.SA,MSCI JAPAN VDRE,62.85
+EEXIF11.SA,EXES FIC FI INFRAESTRUTURA RENDA FIXA CRÉDITO PRIVADO LONGO PRAZO - RESPONSABILIDADE LIMITADA,10.19
+EEXPB31.SA,EXPERIAN PLCDR1,242.00
+EEZTC3F.SA,EZTEC       ON      NM,15.23
+FF2IC34.SA,Fair Isaac Corporation,159.16
+FF2IV34.SA,"Five9, Inc.",5.54
+FF2RS34.SA,Freshworks Inc.,12.70
+FFDES11F.SA,FUNDES      CI,0.40
+FFESA3F.SA,FERBASA     ON      N1,12.28
+FFESA4F.SA,FERBASA     PN      N1,7.80
+FFGAA11.SA,FG/Agro Fundo De Investimento Nas Cadeias Produtivas Agroindustriais - Fiagro-Imobiliario,9.13
+FFHER3F.SA,FER HERINGERON      NM,4.20
+FFIEI3F.SA,FICA        ON,13.49
+FFIIB11Q.SA,FII INDL BR CI  ER,442.70
+FFIND11.SA,It Now IFNC Index Fund,195.29
+FFIQE3F.SA,UNIFIQUE    ON      NM,5.25
+FFIXA11.SA,Bb Etf Renda Fixa Pré Índice Futuro De Taxas De Juros S&P/B3 Fundo De Índice Resp Limitada,19.03
+FFLCR11Q.SA,--,99.49
+FFLRY3F.SA,FLEURY      ON      NM,17.60
+FFNAM11.SA,Fundo de Investimento Amazônia - FINAM,0.36
+FFNOR11.SA,Finor -Ci Fund,0.70
+FFOMO11.SA,FOMO HASH   CI,20.12
+FFRAS3F.SA,"FRAS,LE     ON      N1",24.10
+FFRIO3F.SA,METALFRIO   ON      NM,175.20
+FFSPE11.SA,Fiset Pesca Fiset Fspe,0.23
+FFSPE11F.SA,FISET PESCA CI,0.20
+FFSRF11.SA,Fiset FL Ref,0.10
+FFSRF11F.SA,FISET FL REFCI,0.10
+FFSTU11F.SA,FISET TUR   CI,0.24
+FFTCA11.SA,Nch Recebiveis Do Agronegocio - Fiagro Imobiliario,9.67
+FFZDA11.SA,FIAGRO FZDA CI,129.06
+GG1TR39.SA,ABRDN PMETALDRE,86.19
+GG2ME34.SA,"Globus Medical, Inc.",56.58
+GG2WR34.SA,"Guidewire Software, Inc.",54.48
+GGBIT11.SA,Galapagos Bitcoin Cme Cf Fundo De Indice,71.15
+GGBTC11.SA,Buena Vista Hashdex Gold & Bitcoin Fundo De Indice - Responsabilidade Limitada,30.75
+GGCRA11.SA,Galapagos Recebiveis Do Agronegocio Fiagro Imobiliario,54.66
+GGDIV11.SA,Buena Vista Dex Neos International High Income Fundo De Indice De Responsabilidade Limitada,102.71
+GGDXB39.SA,VanEck Gold Miners ETF,180.92
+GGENB11.SA,Btg Pactual S&P B3 Ingenius Fundo De Indice,15.64
+GGEPA3F.SA,GER PARANAP ON,33.50
+GGEPA4F.SA,GER PARANAP PN,35.09
+GGFSA3F.SA,GAFISA      ON      NM,3.04
+GGGBR3F.SA,GERDAU      ON      N1,18.70
+GGGBR4F.SA,GERDAU      PN      N1,21.79
+GGGPS3F.SA,GPS         ON      NM,18.66
+GGICP11.SA,GENIAL DEBDIF11,10.51
+GGLDI11.SA,IT NOW GOLD CI,64.10
+GGLDX11.SA,Investo ETF Solactive Gold Spot Index Fundo De Indice,123.19
+GGLFT11.SA,GLPG TEVALFTF11,105.10
+GGMAT3F.SA,GRUPO MATEUSON      NM,5.39
+GGOAT11.SA,It Now Sp Imab Fundo De Indice Responsabilidade Limitada,54.33
+GGOAU3F.SA,GERDAU MET  ON      N1,9.29
+GGOAU4F.SA,GERDAU MET  PN      N1,9.70
+GGOLB11.SA,BTGP GOLB   CI,123.20
+GGOLD11.SA,Trend Etf Lbma Ouro Fundo Investimento Cotas De Fundo De Andice Investimento Exterior,27.35
+GGOLL54F.SA,GOL         PN *P   N2,11.20
+GGOLX11.SA,TREND OURO HCI,58.10
+GGOVE11.SA,It Now IGCT Index Fund,79.84
+GGPAR3F.SA,CELGPAR     ON,15.95
+GGPUS11.SA,Investo Gp Etf S&P 500 Fundo De Indice,107.55
+GGRND3F.SA,GRENDENE    ON      NM,4.79
+GGROP31.SA,POTASSIO BR DR1,14.72
+GGRWA11.SA,Greenwich Agro Fundo De Investimento Nas Cadeias Produtivas Agroindustriais - Fiagro - Imobiliario,7.66
+GGSHP3F.SA,GENERALSHOPPON,3.47
+GGXUS11.SA,GLPG GLBEXUSCI,108.81
+HH2TA34.SA,Healthcare Realty Trust Incorporated,23.34
+HHAGA3F.SA,HAGA S/A    ON,2.07
+HHAGA4F.SA,HAGA S/A    PN,1.32
+HHAPV3F.SA,HAPVIDA     ON      NM,10.43
+HHASH11.SA,Hashdex Nasdaq Crypto Index Fundo De Indice,47.63
+HHBOR3F.SA,HELBOR      ON      NM,2.94
+HHBRE3F.SA,HBR REALTY  ON      NM,3.50
+HHBSA3F.SA,HIDROVIAS   ON      NM,3.94
+HHBTS5F.SA,HABITASUL   PNA,36.50
+HHERT11.SA,Hedge Brasil Equity REITS Fundo De Indice De Responsabilidade Limitada,21.95
+HHETA4F.SA,HERCULES    PN,4.71
+HHGAG11.SA,High Fundo De Investimento Agro - Fiagro - Imobiliario,12.39
+HHGBR11.SA,Nu Iboxx Investment Grade Hedge Carry Brl Classe De Índice Investimento No Exterior - RL,52.71
+HHGPO11.SA,Cshg Jhsf Prime Offices Fundo De Investimento Imobiliario,148.96
+HHIGH11.SA,NU IBOV SMART HIGH BETA B3 CLASSE DE ÍNDICE - RESPONSABILIDADE LIMITADA,104.89
+HHIRE11.SA,Hire Fundo De Investimento Imobiliario Responsabilidade Limitada,100.36
+HHIWP34.SA,HIGHWOODS PRDRN,66.64
+HHODL11.SA,INVESTO ETF MARKETVECTOR BITCOIN BENCHMARK RATE FUNDO DE ÍNDICE - RESPONSABILIDADE LIMITADA,60.50
+HHOMS11.SA,FII HOMS    CI,123.02
+HHOOT4F.SA,HOTEIS OTHONPN,7.04
+HHTEK11.SA,Htek - It Now Morningstar Xt Us Healthcare Fundo De Indice,57.54
+HHYBR11.SA,Nu Iboxx High Yield Hedge Carry Brl Classe De Indice Investimento No Exterior- Resp Limitada,52.70
+HHYEM39.SA,VANECK EMERGDRE ED,35.06
+HHYPE1.SA,"HYPERA      DO   21,25",2.00
+HHYPE1F.SA,"HYPERA      DO   21,25",1.81
+HHYPE3F.SA,HYPERA      ON  ES  NM,23.37
+HHYPE3Q.SA,HYPERA      ON  ES  NM,23.80
+II2NV34.SA,Invitation Homes Inc.,28.12
+IIAAG11.SA,Inter Amerra - Fiagro - Imobiliario,8.83
+IIAGR11.SA,Sfi Investimentos Do Agronegocio - Fiagro Imobiliario,4.42
+IIB5M11.SA,It Now IMA-B5+ Fundo De Indice,120.30
+IIBIT39.SA,BKR BITCOIN DRE,68.00
+IIBOB11.SA,Btg Pactual B3 Ibovespa Fundo De Indice,152.71
+IIBOV11.SA,IBOVESPA    IBO/,"186,096.00"
+IICLR34.SA,ICON PLC    DRN,24.55
+IIDKA11.SA,It Now Irfm P3 Fundo De Indice Responsabilidade Limitada,58.61
+IIFCM1.SA,"INFRACOMM   DO    1,22",0.01
+IIFCM1F.SA,"INFRACOMM   DO    1,22",0.01
+IIFCM3F.SA,INFRACOMM   ON      NM,0.53
+IIFRA11.SA,Itau FIC De Fundos De Investimento Em Direitos Creditorios De Infraestrutura,102.79
+IIFRI11.SA,Itau Fundo De Investimento Em Cotas De FIDIFEI Cdi Renda Fixa Credito Privado - Resp Limitada,103.38
+IIGTI11.SA,Iguatemi S.A.,28.43
+IIGTI11F.SA,IGUATEMI S.AUNT     N1,28.44
+IIGTI3F.SA,IGUATEMI S.AON      N1,3.31
+IIGTI4F.SA,IGUATEMI S.APN      N1,12.90
+IIMAB11.SA,It Now Id ETF Ima-B Fundo De Indice,110.04
+IIMBB11.SA,FUNDO DE INVESTIMENTO DE ÍNDICE - CLASSE DE INVESTIMENTO ETF BRADESCO IMA-B - RESP LIMITADA,144.06
+IINEP3F.SA,INEPAR      ON,1.31
+IINEP4F.SA,INEPAR      PN,1.10
+IINFB11.SA,Drys Fundo De Investimento Em Cotas De Fundos Incentivados De Investimento Em Infraestrutura R F,90.00
+IINTB3F.SA,INTELBRAS   ON      NM,12.55
+IIRBR3F.SA,IRBBRASIL REON      NM,59.74
+IIRFM11.SA,It Now IRF - M P2 Fundo De Indice,99.23
+IIRIF11.SA,Iridium Infra Fundo De Investim Em Cotas De Fundos Incent De Investim Em Infraes Renda Fixa,9.40
+IISAE3F.SA,ISA ENERGIA ON      N1,35.11
+IISAE4F.SA,ISA ENERGIA PN      N1,29.74
+IISEN11.SA,ITAÚ ISENTO MARÇO 29 FUNDO DE INVESTIMENTO EM COTAS DE FIIF EM INFRA RF - RESP LIMITADA,110.20
+IISET11.SA,Itaú Isento Setembro 28 Fundo De Investimento Em Cotas De Fiif Em Infra Rf Resp Limitada,109.54
+IISNN11.SA,Itau Isento Julho 28 Fic De Fundos Incentivados De Inv Financeiro Em Infra Rf Resp Limitada,"1,032.34"
+IISNT11.SA,Itau Isento Marco 28 Fundo De Investimento E Cotas D F I D I Financeiro Em Infraestrutura Renda Fixa,"1,071.00"
+IISTT11.SA,Itau Isento Setembro 29 Fundo De Investimento Em Cotas De Fundos Incentivados De Inv Fi Em IRFRL,"1,064.90"
+IISUS11.SA,It Now ISE Index Fund,47.86
+IITSA3F.SA,ITAUSA      ON      N1,14.57
+IITSA4F.SA,ITAUSA      PN      N1,14.62
+IITUB3F.SA,ITAUUNIBANCOON  EJ  N1,44.35
+IITUB4F.SA,ITAUUNIBANCOPN  EJ  N1,47.40
+IIVVB11.SA,iShares S&P 500 Fundo de Investimento - Investimento No Exterior,401.52
+IIWMI11.SA,Buena Vista Gestora De Recursos Ltda- Neos Russell 2000 High Income Ind Fundo De Indice,81.76
+JJ2BL34.SA,Jabil Inc.,165.99
+JJALL3F.SA,JALLESMACHADON      NM,3.00
+JJFEN3F.SA,JOAO FORTES ON,0.99
+JJGPX11.SA,Fundo De Investimento Nas Cadeias Produtivas Agroindustriais Jgp Credito Fiagro Imobiliario,71.50
+JJHSF3F.SA,JHSF PART   ON      NM,9.64
+JJMBI11.SA,Jivemaua Bossanova Fundo De Investimento Em Cotas De Fundos Incentivados De I Em I R F R Limitada,93.10
+JJOGO11.SA,Investo Etf Global Video Gaming & Esports Fundo De Investimento De Indice - Ie,120.81
+JJOPA3F.SA,JOSAPAR     ON,22.00
+JJOPA4F.SA,JOSAPAR     PN,23.35
+JJSLG3F.SA,JSL         ON      NM,8.23
+JJURO11.SA,Sparta Infra Fundo Investimento Cotas Fundos Incentivados Investimento Infraestrutura Renda Fi Cr Pr,102.85
+KKDIF11.SA,Kinea Infra Fundo Investimento Cotas Fundos Investimento Direitos Creditorios Infraestrutura,128.48
+KKDIF12.SA,"KINEA INFRAFDM  128,46",0.25
+KKDOL11.SA,Kinea Agro Income Usd Fiagro-Imobiliario,89.90
+KKEPL3F.SA,KEPLER WEBERON      NM,9.30
+KKLBN11F.SA,KLABIN S/A  UNT     N2,20.46
+KKLBN3F.SA,KLABIN S/A  ON      N2,4.09
+KKLBN4F.SA,KLABIN S/A  PN      N2,4.04
+KKNCA11.SA,Kinea Credito Agro Fiagro-Imobiliario,96.10
+KKNDI11.SA,Kinea Estrategia Infra Cdi Fundo De Investimento Em Participacoes Em Infraestrutura Resp Limitada,103.97
+KKNOX11.SA,Fip Knox Debt Infraestrutura,101.00
+KKOPA11.SA,Kinea Oportunidades Agro I Fiagro - Responsabilidade Limitada,609.00
+KKORE11Q.SA,FII KORE    CI  ER,70.39
+LL2IV34.SA,LivaNova PLC,41.92
+LL2PL34.SA,LPL Financial Holdings Inc.,96.71
+LL2RN34.SA,"Stride, Inc.",117.20
+LL2SC34.SA,Lattice Semiconductor Corporation,64.70
+LLAFI11.SA,FIAGRO LAFI CI,117.43
+LLAND3F.SA,TERRASANTAPAON      NM,8.17
+LLAVV3F.SA,LAVVI       ON  ED  NM,18.18
+LLEVE3F.SA,METAL LEVE  ON      NM,35.20
+LLFIN11.SA,BTGP LFIN   F11,105.52
+LLFIX11.SA,Investo V8 Letra Financeira B3 Fundo De Indice,20.05
+LLFTB11.SA,Investo Etf Marketvector Brazil Treasury 760 Day Target Duration Classe De Indice - Responsab Limita,117.66
+LLFTI11.SA,It Now Teva Tesouro Selic Fundo De Indice Responsabilidade Limitada,51.08
+LLFTS11.SA,Investo Teva Tesouro Selic Etf - Fundo De Investimento De Indice,147.99
+LLIGT3F.SA,LIGHT S/A   ON      NM,4.89
+LLJQQ3F.SA,"QUERO,QUERO ON      NM",2.39
+LLLFT11.SA,BTG Pactual Teva Tesouro Selic Fundo De Indice,109.97
+LLOGG3F.SA,LOG COM PROPON      NM,27.96
+LLOGN3F.SA,"LOG,IN      ON      NM",31.82
+LLPSB3F.SA,LOPES BRASILON      NM,1.73
+LLREN3F.SA,LOJAS RENNERON      NM,15.40
+LLSAG11.SA,LESTE FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS- FIAGRO - IMOBILIÁRIO,89.65
+LLTNB11.SA,Btg Pactual Irf-M P2 Fundo De Indice,110.25
+LLUPA3F.SA,LUPATECH    ON      NM,1.13
+LLUXM4F.SA,TREVISA     PN,4.47
+LLVBI11.SA,Fundo De Investimento Imobiliario - VBI Logistico - Cota Fund,109.48
+LLVOL11.SA,Nu Ibov Smart Low Volatility B3 Classe De Indice - Responsabilidade Limitada,143.38
+LLWSA3F.SA,LWSA        ON  ER  NM,3.70
+MM1TA34Q.SA,META PLAT   DRN,124.76
+MM2KS34.SA,MKS Inc.,74.62
+MM2PM34.SA,MP Materials Corp.,60.66
+MM2PR34.SA,"Monolithic Power Systems, Inc.",101.40
+MM2PT34.SA,"Medical Properties Trust, Inc.",14.25
+MM2RV34.SA,"Marvell Technology, Inc.",40.97
+MM2ST34.SA,Strategy Inc,9.95
+MMARG11.SA,Btg Pactual Margem Debentures Ultra Qualidade Di B3 Fundo De Indice,113.99
+MMATB11.SA,It Now IMAT Index Fund,68.08
+MMATD3F.SA,NASDAQ OMX Nordic Invest Compan,5.71
+MMBRF3F.SA,MARFRIG     ON      NM,18.55
+MMDIA3F.SA,M.DIASBRANCOON      NM,25.20
+MMDNE3F.SA,MOURA DUBEUXON      NM,32.01
+MMEAL3F.SA,IMC S/A     ON      NM,1.14
+MMELK3F.SA,MELNICK     ON      NM,3.95
+MMERC4F.SA,MERC FINANC PN,14.80
+MMETA11.SA,Hashdex Crypto Metaverse Fundo De Indice,9.08
+MMGEL4F.SA,MANGELS INDLPN,6.10
+MMGLU3F.SA,MAGAZ LUIZA ON      NM,10.31
+MMILL11.SA,It Now Msci Usa Imi Millenials Select 50 Fundo De Indice,71.52
+MMILS3F.SA,MILLS       ON      NM,14.95
+MMLAS3F.SA,MULTILASER  ON      NM,1.41
+MMNDL3F.SA,STX TR.EXP.EU.50 NR EO,17.31
+MMNPR3F.SA,MINUPAR     ON,4.11
+MMOTV3F.SA,MOTIVA SA   ON      NM,16.44
+MMOVI3F.SA,MOVIDA      ON      NM,13.09
+MMRSA3BF.SA,MRS LOGISTICA,44.16
+MMRSA5BF.SA,MRS LOGISTICA,35.00

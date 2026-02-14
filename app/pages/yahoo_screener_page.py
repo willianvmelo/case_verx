@@ -18,34 +18,35 @@ from selenium.common.exceptions import (
 
 @dataclass(frozen=True)
 class Locators:
+    # Filter button (Region)
     REGION_MENU_BUTTON = (
         By.XPATH,
         "//button[@aria-haspopup='true' and (contains(@data-ylk,'slk:Region') or .//div[normalize-space()='Region'])]",
     )
 
+    # Dialogs (dropdown popovers)
     DIALOG_CONTAINERS = (By.CSS_SELECTOR, "div.dialog-container.menu-surface-dialog")
-
-    # Dentro do dialog aberto
     APPLY_BUTTON_IN_DIALOG = (By.XPATH, ".//button[@aria-label='Apply']")
     OPTIONS_LABELS_IN_DIALOG = (By.XPATH, ".//div[contains(@class,'options')]//label")
 
-    # tabela
+    # Table
     TBODY = (By.CSS_SELECTOR, "table tbody")
     TABLE_ROWS = (By.CSS_SELECTOR, "table tbody tr")
 
-    # empty
+    # Pagination buttons (Yahoo screener table)
+    FIRST_PAGE = (By.CSS_SELECTOR, 'button[data-testid="first-page-button"]')
+    PREV_PAGE = (By.CSS_SELECTOR, 'button[data-testid="prev-page-button"]')
+    NEXT_PAGE = (By.CSS_SELECTOR, 'button[data-testid="next-page-button"]')
+    LAST_PAGE = (By.CSS_SELECTOR, 'button[data-testid="last-page-button"]')
+
+    # Empty state (generic)
     EMPTY_STATE = (
         By.XPATH,
         "//*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'no results') "
         "or contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'no matching')]",
     )
 
-    # next
-    NEXT_BUTTON = (
-        By.XPATH,
-        "//button[contains(@aria-label,'Next') or normalize-space()='Next' or .//span[normalize-space()='Next']]",
-    )
-
+    # Cookie/consent (generic)
     COOKIE_ACCEPT = (
         By.XPATH,
         "//button[contains(., 'Accept') or contains(., 'I agree') or contains(., 'Agree')]",
@@ -53,7 +54,7 @@ class Locators:
 
 
 class YahooScreenerPage:
-    URL = "https://finance.yahoo.com/research-hub/screener/equity/"
+    URL = "https://finance.yahoo.com/research-hub/screener/equity/?start=0&count=100"
 
     def __init__(self, client, debug: bool = True):
         self.client = client
@@ -66,7 +67,7 @@ class YahooScreenerPage:
         if self.debug:
             print("[YahooScreenerPage]", *args, flush=True)
 
-    # ------------------ públicos ------------------
+    # ------------------ public ------------------
 
     def open(self) -> None:
         self.client.open(self.URL)
@@ -84,7 +85,6 @@ class YahooScreenerPage:
         btn = self.wait.until(EC.presence_of_element_located(Locators.REGION_MENU_BUTTON))
         self._scroll_into_view(btn)
 
-        # ✅ Novo: abrir popover sem depender do aria-controls
         dialog = self._open_region_dialog(btn)
 
         before_checked = self._get_checked_regions(dialog)
@@ -104,26 +104,42 @@ class YahooScreenerPage:
         sig_after = self._page_signature()
         self._log("Signature AFTER:", sig_after[:200].replace("\n", " | "))
 
-    def iter_pages_html(self, max_pages: int = 10_000):
-        page = 1
-        while page <= max_pages:
+    def iter_pages_html(self, max_pages: int = 100_000):
+        """
+        Itera todas as páginas usando o botão Next do pager.
+        Para cada página, yield do HTML atual (após a tabela estar "pronta").
+        """
+        # garante estado pronto antes de começar
+        self._wait_results_present_or_empty()
+
+        # opcional: força ir para primeira página
+        self._goto_first_page_if_possible()
+
+        page_num = 1
+        while page_num <= max_pages:
             self._wait_results_present_or_empty()
             yield self.client.get_page_source()
 
-            if not self.client.driver.find_elements(*Locators.TABLE_ROWS):
-                self._log("iter_pages_html(): 0 linhas. Stop.")
+            next_btn = self._find(Locators.NEXT_PAGE)
+            if not next_btn:
+                self._log("iter_pages_html(): botão Next não encontrado. Stop.")
                 break
 
-            next_btn = self._get_next_button()
-            if not next_btn or self._is_disabled(next_btn):
-                self._log("iter_pages_html(): sem Next ou desabilitado. Stop.")
+            if self._is_disabled(next_btn):
+                self._log("iter_pages_html(): Next desabilitado (última página). Stop.")
                 break
 
-            before = self._page_signature()
+            # Snapshot antes do clique (pra esperar refresh)
+            tbody_before, first_row_before, sig_before = self._table_snapshot()
+            self._log(f"Next: clicando para página {page_num + 1}...")
+
+            self._scroll_into_view(next_btn)
             self._safe_click(next_btn)
-            self._wait_page_signature_changed(before)
-            self._log(f"Next: {page} -> {page+1}")
-            page += 1
+
+            # ✅ espera a tabela de fato atualizar (delay pós-clique)
+            self._wait_table_refresh(tbody_before, first_row_before, sig_before)
+
+            page_num += 1
 
     # ------------------ cookies ------------------
 
@@ -135,18 +151,14 @@ class YahooScreenerPage:
         except TimeoutException:
             return
 
-    # ------------------ abrir/fechar dialog (ROBUSTO) ------------------
+    # ------------------ dialog open/close (robust) ------------------
 
     def _open_region_dialog(self, region_button):
         """
-        Abre o dropdown do Region e retorna o dialog_root REAL (o que ficou aberto),
-        sem confiar no aria-controls, que pode ser dinâmico.
-
-        Critério do dialog aberto:
-        - aria-hidden="false"
-        - NÃO tem 'tw-hidden' na classe
-        - contém botão Apply e lista de options
+        Abre o dropdown do Region e retorna o dialog_root real,
+        sem depender de aria-controls.
         """
+
         def list_open_dialogs() -> List[object]:
             dialogs = self.client.driver.find_elements(*Locators.DIALOG_CONTAINERS)
             opened = []
@@ -163,17 +175,13 @@ class YahooScreenerPage:
         before_open = list_open_dialogs()
         self._log("Dialogs abertos ANTES:", len(before_open))
 
-        # tenta clique (normal + JS fallback)
         self._log("Abrindo popover Region (click)...")
         self._safe_click(region_button)
 
-        def wait_new_open_dialog(drv):
+        def wait_open_dialog(_):
             opened = list_open_dialogs()
-            # pode ser que nenhum estava aberto antes e agora apareceu 1
-            # ou pode ser que tenha trocado a referência (re-render)
             for dialog in opened:
                 try:
-                    # verifica conteúdo
                     has_apply = len(dialog.find_elements(*Locators.APPLY_BUTTON_IN_DIALOG)) > 0
                     has_opts = len(dialog.find_elements(*Locators.OPTIONS_LABELS_IN_DIALOG)) > 0
                     if has_apply and has_opts:
@@ -182,30 +190,20 @@ class YahooScreenerPage:
                     continue
             return False
 
-        try:
-            dialog = self._wait_short(10).until(wait_new_open_dialog)
-            self._log("Popover aberto (dialog detectado). id=", dialog.get_attribute("id"))
-            return dialog
-        except TimeoutException:
-            self._log("❌ Timeout detectando dialog aberto. Dump debug...")
-            self._dump_debug("open_dialog_failed")
-            raise
+        dialog = self._wait_short(10).until(wait_open_dialog)
+        self._log("Popover aberto (dialog detectado). id=", dialog.get_attribute("id"))
+        return dialog
 
     def _wait_dialog_closed(self, dialog_root) -> None:
-        """
-        Espera o dialog_root fechar:
-        - aria-hidden="true" OU classe contém tw-hidden
-        Observação: dialog_root pode ficar stale se re-render fechar/recriar; tratamos isso.
-        """
         self._log("Aguardando popover fechar...")
+
         def closed(_):
             try:
                 aria_hidden = (dialog_root.get_attribute("aria-hidden") or "").lower()
                 klass = dialog_root.get_attribute("class") or ""
                 return (aria_hidden == "true") or ("tw-hidden" in klass)
             except StaleElementReferenceException:
-                # se ficou stale, ele foi removido -> fechado
-                return True
+                return True  # removido do DOM -> fechado
 
         try:
             self._wait_short(10).until(closed)
@@ -296,7 +294,7 @@ class YahooScreenerPage:
             self._log("⚠️ Apply não habilitou.")
             return False
 
-    # ------------------ refresh da tabela ------------------
+    # ------------------ wait refresh da tabela ------------------
 
     def _table_snapshot(self) -> Tuple[Optional[object], Optional[object], str]:
         tbody_el = None
@@ -313,31 +311,35 @@ class YahooScreenerPage:
         return tbody_el, row_el, self._page_signature()
 
     def _wait_table_refresh(self, tbody_before, first_row_before, sig_before: str) -> None:
-        self._log("Aguardando refresh da tabela (pós-popover)...")
+        """
+        Após clique em Next (ou Apply), a tabela demora pra atualizar.
+        Esperamos sinais reais de re-render / mudança.
+        """
+        self._log("Aguardando refresh da tabela...")
 
         if tbody_before is not None:
             try:
-                self._wait_short(20).until(EC.staleness_of(tbody_before))
-                self._log("✅ tbody ficou stale (re-render).")
+                self._wait_short(25).until(EC.staleness_of(tbody_before))
+                self._log("✅ tbody stale (re-render).")
                 self._wait_results_present_or_empty()
                 return
             except TimeoutException:
-                self._log("staleness(tbody) não ocorreu em 20s.")
+                self._log("staleness(tbody) não ocorreu em 25s.")
 
         if first_row_before is not None:
             try:
-                self._wait_short(20).until(EC.staleness_of(first_row_before))
-                self._log("✅ first_row ficou stale (re-render).")
+                self._wait_short(25).until(EC.staleness_of(first_row_before))
+                self._log("✅ first_row stale (re-render).")
                 self._wait_results_present_or_empty()
                 return
             except TimeoutException:
-                self._log("staleness(first_row) não ocorreu em 20s.")
+                self._log("staleness(first_row) não ocorreu em 25s.")
 
         try:
-            self._wait_short(25).until(lambda d: self._page_signature() != sig_before)
+            self._wait_short(30).until(lambda d: self._page_signature() != sig_before)
             self._log("✅ assinatura mudou.")
         except TimeoutException:
-            self._log("⚠️ assinatura não mudou em 25s.")
+            self._log("⚠️ assinatura não mudou em 30s (pode ser mesmo dataset/ordem).")
 
         self._wait_results_present_or_empty()
         self._log("Refresh concluído (linhas ou empty).")
@@ -348,7 +350,30 @@ class YahooScreenerPage:
             or (len(d.find_elements(*Locators.EMPTY_STATE)) > 0)
         )
 
-    # ------------------ paginação helpers ------------------
+    # ------------------ pager: first page ------------------
+
+    def _goto_first_page_if_possible(self) -> None:
+        btn = self._find(Locators.FIRST_PAGE)
+        if not btn:
+            return
+        if self._is_disabled(btn):
+            self._log("First-page já desabilitado (já estamos na primeira).")
+            return
+
+        tbody_before, first_row_before, sig_before = self._table_snapshot()
+        self._log("Indo para primeira página (first-page)...")
+        self._scroll_into_view(btn)
+        self._safe_click(btn)
+        self._wait_table_refresh(tbody_before, first_row_before, sig_before)
+
+    # ------------------ misc helpers ------------------
+
+    def _find(self, locator):
+        try:
+            els = self.client.driver.find_elements(*locator)
+            return els[0] if els else None
+        except Exception:
+            return None
 
     def _page_signature(self) -> str:
         rows = self.client.driver.find_elements(*Locators.TABLE_ROWS)[:3]
@@ -357,18 +382,12 @@ class YahooScreenerPage:
     def _wait_page_signature_changed(self, before: str) -> None:
         self.wait.until(lambda d: self._page_signature() != before)
 
-    def _get_next_button(self):
-        els = self.client.driver.find_elements(*Locators.NEXT_BUTTON)
-        return els[0] if els else None
-
     @staticmethod
     def _is_disabled(el) -> bool:
         disabled_attr = el.get_attribute("disabled")
         aria_disabled = el.get_attribute("aria-disabled")
         klass = (el.get_attribute("class") or "").lower()
         return (disabled_attr is not None) or (aria_disabled == "true") or ("disabled" in klass)
-
-    # ------------------ click helpers ------------------
 
     def _safe_click(self, el) -> None:
         try:
@@ -384,19 +403,3 @@ class YahooScreenerPage:
 
     def _wait_short(self, seconds: int):
         return self.wait.__class__(self.client.driver, seconds)
-
-    # ------------------ debug dump ------------------
-
-    def _dump_debug(self, name: str) -> None:
-        ts = time.strftime("%Y%m%d-%H%M%S")
-        try:
-            import os
-            os.makedirs("debug", exist_ok=True)
-            png = f"debug/{name}-{ts}.png"
-            html = f"debug/{name}-{ts}.html"
-            self.client.driver.save_screenshot(png)
-            with open(html, "w", encoding="utf-8") as f:
-                f.write(self.client.driver.page_source)
-            self._log("Dump debug:", png, html)
-        except Exception as e:
-            self._log("Falha ao dump debug:", e)
