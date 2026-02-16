@@ -38,7 +38,7 @@ app/
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - Python 3.10+
 - Selenium
@@ -119,7 +119,7 @@ equities.csv
 ### Especificar arquivo de saída
 
 ```bash
-python -m app.cli --region Austria --output austria_equities.csv
+python -m app.cli --region Brazil --output brazil_equities.csv
 ```
 
 ---
@@ -190,48 +190,6 @@ O Yahoo Screener utiliza:
 
 Portanto, scraping estático (requests + bs4) não é suficiente.
 
-### Estratégia de confiabilidade
-
-O crawler utiliza múltiplos sinais para detectar atualização da tabela:
-
-- Staleness do DOM
-- Mudança na assinatura das primeiras linhas
-- Presença de novos elementos
-
-Isso evita inconsistências causadas por delays assíncronos.
-
----
-
-## Execução com Docker (opcional)
-
-Caso incluído no projeto:
-
-```bash
-docker build -t yahoo-crawler .
-docker run --rm yahoo-crawler --region Brazil
-```
-
----
-
-## Possível arquitetura em produção (AWS)
-
-Uma arquitetura recomendada para execução em escala:
-
-- ECS Fargate — execução do crawler
-- S3 — armazenamento dos resultados
-- EventBridge — agendamento periódico
-- SQS — fila para múltiplas regiões
-
----
-
-## Extensões futuras
-
-- Suporte a múltiplos filtros simultâneos
-- Exportação para banco de dados
-- API REST para disparo de crawls
-- Execução paralela por região
-- Monitoramento e logs estruturados
-
 ---
 
 ## Limitações
@@ -247,7 +205,3 @@ Uma arquitetura recomendada para execução em escala:
 Projeto desenvolvido exclusivamente para fins de avaliação técnica.
 
 ---
-
-## 👤 Autor
-
-Desenvolvido por <Seu Nome>
