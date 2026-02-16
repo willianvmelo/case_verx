@@ -1,7 +1,6 @@
-# app/pages/yahoo_screener_page.py
-
 from __future__ import annotations
 
+import hashlib
 import time
 from dataclasses import dataclass
 from typing import List, Optional, Tuple
@@ -14,39 +13,60 @@ from selenium.common.exceptions import (
     StaleElementReferenceException,
     NoSuchElementException,
 )
+from selenium.webdriver.support.ui import WebDriverWait
 
 
 @dataclass(frozen=True)
 class Locators:
-    # Filter button (Region)
+    # ------------------ Filters: Region ------------------
     REGION_MENU_BUTTON = (
         By.XPATH,
         "//button[@aria-haspopup='true' and (contains(@data-ylk,'slk:Region') or .//div[normalize-space()='Region'])]",
     )
 
-    # Dialogs (dropdown popovers)
+    # ------------------ Dialogs (dropdown popovers) ------------------
     DIALOG_CONTAINERS = (By.CSS_SELECTOR, "div.dialog-container.menu-surface-dialog")
     APPLY_BUTTON_IN_DIALOG = (By.XPATH, ".//button[@aria-label='Apply']")
     OPTIONS_LABELS_IN_DIALOG = (By.XPATH, ".//div[contains(@class,'options')]//label")
 
-    # Table
+    # ------------------ Table ------------------
+    TABLE = (By.CSS_SELECTOR, "table")
     TBODY = (By.CSS_SELECTOR, "table tbody")
     TABLE_ROWS = (By.CSS_SELECTOR, "table tbody tr")
 
-    # Pagination buttons (Yahoo screener table)
+    # ------------------ Pagination (Yahoo screener table) ------------------
     FIRST_PAGE = (By.CSS_SELECTOR, 'button[data-testid="first-page-button"]')
     PREV_PAGE = (By.CSS_SELECTOR, 'button[data-testid="prev-page-button"]')
     NEXT_PAGE = (By.CSS_SELECTOR, 'button[data-testid="next-page-button"]')
     LAST_PAGE = (By.CSS_SELECTOR, 'button[data-testid="last-page-button"]')
 
-    # Empty state (generic)
+    # ------------------ Rows per page control ------------------    
+    # Achar o botão "rows per page" de forma estável (não depender de classes).
+    ROWS_PER_PAGE_BUTTON = (
+        By.XPATH,
+        "//button[@aria-haspopup='listbox' and contains(@data-ylk,'sec:screener-table') and contains(@data-ylk,'subsec:custom-screener')]",
+    )
+    # Menu listbox que aparece ao clicar no botão (geralmente role=listbox + role=option nos itens)
+    LISTBOX_VISIBLE = (
+        By.XPATH,
+        "//*[@role='listbox' and (not(@aria-hidden) or @aria-hidden='false') and not(contains(@class,'tw-hidden'))]",
+    )
+    LISTBOX_OPTION_BY_VALUE = (
+        By.XPATH,
+        ".//*[@role='option' and normalize-space(.)='{value}']"
+        "|.//button[normalize-space(.)='{value}']"
+        "|.//span[normalize-space(.)='{value}']"
+        "|.//*[@data-value='{value}']",
+    )
+
+    # ------------------ Empty state (generic) ------------------
     EMPTY_STATE = (
         By.XPATH,
         "//*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'no results') "
         "or contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'no matching')]",
     )
 
-    # Cookie/consent (generic)
+    # ------------------ Cookie/consent (generic) ------------------
     COOKIE_ACCEPT = (
         By.XPATH,
         "//button[contains(., 'Accept') or contains(., 'I agree') or contains(., 'Agree')]",
@@ -54,11 +74,11 @@ class Locators:
 
 
 class YahooScreenerPage:
-    URL = "https://finance.yahoo.com/research-hub/screener/equity/?start=0&count=100"
+    URL = "https://finance.yahoo.com/research-hub/screener/equity/"
 
     def __init__(self, client, debug: bool = True):
         self.client = client
-        self.wait = client.wait
+        self.wait = client.wait  # WebDriverWait padrão do client
         self.debug = debug
 
     # ------------------ logs ------------------
@@ -72,7 +92,8 @@ class YahooScreenerPage:
     def open(self) -> None:
         self.client.open(self.URL)
         self._accept_cookies_if_present()
-        self._wait_results_present_or_empty()
+        self._wait_results_present_or_empty()        
+        self.try_set_rows_per_page(100)
         self._log("open(): página pronta (linhas ou empty-state).")
 
     def apply_region(self, region: str) -> None:
@@ -99,47 +120,126 @@ class YahooScreenerPage:
         self._log("Apply clicked?", clicked_apply)
 
         self._wait_dialog_closed(dialog)
-        self._wait_table_refresh(tbody_before, first_row_before, sig_before)
+
+        # wait otimizado: primeiro tenta hash de tbody, depois fallback
+        self._wait_table_refresh_fast(tbody_before, first_row_before, sig_before)
 
         sig_after = self._page_signature()
         self._log("Signature AFTER:", sig_after[:200].replace("\n", " | "))
 
-    def iter_pages_html(self, max_pages: int = 100_000):
-        """
-        Itera todas as páginas usando o botão Next do pager.
-        Para cada página, yield do HTML atual (após a tabela estar "pronta").
-        """
-        # garante estado pronto antes de começar
-        self._wait_results_present_or_empty()
+    # ------------------ HTML extraction (OPTIM) ------------------
 
-        # opcional: força ir para primeira página
+    def get_table_html(self) -> str:
+        """Extrai apenas o HTML da tabela (bem mais leve do que page_source)."""
+        table = self.wait.until(EC.presence_of_element_located(Locators.TABLE))
+        return table.get_attribute("outerHTML")
+
+    def iter_pages_table_html(self, max_pages: int = 100_000):
+        """
+        Itera páginas usando o pager da UI.
+        Em cada página, yield SOMENTE do HTML da tabela (outerHTML)
+        """
+        self._wait_results_present_or_empty()
         self._goto_first_page_if_possible()
 
         page_num = 1
         while page_num <= max_pages:
             self._wait_results_present_or_empty()
-            yield self.client.get_page_source()
+            yield self.get_table_html()
 
             next_btn = self._find(Locators.NEXT_PAGE)
             if not next_btn:
-                self._log("iter_pages_html(): botão Next não encontrado. Stop.")
+                self._log("iter_pages_table_html(): botão Next não encontrado. Stop.")
                 break
-
             if self._is_disabled(next_btn):
-                self._log("iter_pages_html(): Next desabilitado (última página). Stop.")
+                self._log("iter_pages_table_html(): Next desabilitado (última página). Stop.")
                 break
 
-            # Snapshot antes do clique (pra esperar refresh)
+            before_hash = self._tbody_hash()
             tbody_before, first_row_before, sig_before = self._table_snapshot()
-            self._log(f"Next: clicando para página {page_num + 1}...")
 
+            self._log(f"Next: clicando para página {page_num + 1}...")
             self._scroll_into_view(next_btn)
             self._safe_click(next_btn)
 
-            # ✅ espera a tabela de fato atualizar (delay pós-clique)
-            self._wait_table_refresh(tbody_before, first_row_before, sig_before)
+            # espera rápida via hash; fallback se falhar
+            if not self._wait_table_changed_fast(before_hash, timeout=15, poll=0.2):
+                self._log("hash não mudou em 15s; usando refresh robusto (staleness/signature)...")
+                self._wait_table_refresh(tbody_before, first_row_before, sig_before)
 
             page_num += 1
+
+    # ------------------ rows per page (OPTIM) ------------------
+
+    def try_set_rows_per_page(self, value: int = 100) -> bool:
+        """
+        Tenta setar "rows per page" (25/50/100). Se não achar o controle, não quebra.
+        Retorna True se conseguiu selecionar o valor desejado, False caso contrário.
+        """
+        desired = str(value).strip()
+        try:
+            btn = self._find(Locators.ROWS_PER_PAGE_BUTTON)
+            if not btn:
+                self._log("Rows-per-page: controle não encontrado (ok).")
+                return False
+
+            current = (btn.get_attribute("aria-label") or btn.get_attribute("title") or "").strip()
+            if current == desired:
+                self._log(f"Rows-per-page: já está em {desired}.")
+                return True
+
+            self._log(f"Rows-per-page: abrindo menu (atual={current!r}, desejado={desired})...")
+            before_hash = self._tbody_hash()
+
+            self._scroll_into_view(btn)
+            self._safe_click(btn)
+
+            listbox = self._wait_short(6).until(EC.presence_of_element_located(Locators.LISTBOX_VISIBLE))
+
+            # encontrar opção dentro do listbox
+            opt_xpath = Locators.LISTBOX_OPTION_BY_VALUE[1].format(value=desired)
+            option = None
+
+            # tenta dentro do listbox (mais seguro)
+            try:
+                option = listbox.find_element(By.XPATH, opt_xpath)
+            except Exception:
+                # fallback global (às vezes o menu não é filho direto)
+                try:
+                    option = self.client.driver.find_element(By.XPATH, opt_xpath)
+                except Exception:
+                    option = None
+
+            if not option:
+                self._log(f"Rows-per-page: opção {desired} não encontrada no menu (ok).")
+                # tenta fechar clicando no botão novamente
+                try:
+                    self._safe_click(btn)
+                except Exception:
+                    pass
+                return False
+
+            self._log(f"Rows-per-page: selecionando {desired}...")
+            self._safe_click(option)
+
+            # após trocar rows/page, a tabela deve atualizar
+            if not self._wait_table_changed_fast(before_hash, timeout=15, poll=0.2):
+                self._log("Rows-per-page: hash não mudou; aguardando linhas/empty como fallback...")
+                self._wait_results_present_or_empty()
+
+            # conferir de novo o aria-label/title
+            btn2 = self._find(Locators.ROWS_PER_PAGE_BUTTON)
+            now = (btn2.get_attribute("aria-label") or btn2.get_attribute("title") or "").strip() if btn2 else ""
+            ok = (now == desired)
+            self._log("Rows-per-page: result =", {"ok": ok, "now": now})
+            return ok
+
+        except TimeoutException:
+            self._log("Rows-per-page: timeout abrindo listbox/selecionando (ok).")
+            return False
+        except Exception as e:
+            self._log("Rows-per-page: erro inesperado (ok):", repr(e))
+            return False
 
     # ------------------ cookies ------------------
 
@@ -209,7 +309,7 @@ class YahooScreenerPage:
             self._wait_short(10).until(closed)
             self._log("Popover fechado.")
         except TimeoutException:
-            self._log("⚠️ Timeout esperando popover fechar (seguindo).")
+            self._log("Timeout esperando popover fechar (seguindo).")
 
     # ------------------ toggle checkboxes ------------------
 
@@ -283,7 +383,10 @@ class YahooScreenerPage:
 
     def _click_apply_if_enabled(self, dialog_root) -> bool:
         apply_btn = dialog_root.find_element(*Locators.APPLY_BUTTON_IN_DIALOG)
-        self._log("Apply status:", {"enabled": apply_btn.is_enabled(), "disabled_attr": apply_btn.get_attribute("disabled")})
+        self._log(
+            "Apply status:",
+            {"enabled": apply_btn.is_enabled(), "disabled_attr": apply_btn.get_attribute("disabled")},
+        )
 
         try:
             self._wait_short(8).until(lambda d: apply_btn.is_enabled())
@@ -291,10 +394,51 @@ class YahooScreenerPage:
             self._safe_click(apply_btn)
             return True
         except TimeoutException:
-            self._log("⚠️ Apply não habilitou.")
+            self._log("Apply não habilitou.")
             return False
 
-    # ------------------ wait refresh da tabela ------------------
+    # ------------------ wait refresh da tabela (OPTIM) ------------------
+
+    def _tbody_hash(self) -> str:
+        """
+        Hash rápido do conteúdo do tbody.
+        Mais confiável que staleness quando o Yahoo só troca texto/linhas sem recriar nós.
+        """
+        try:
+            tbody = self.client.driver.find_element(*Locators.TBODY)
+            txt = (tbody.text or "").strip()
+            if not txt:
+                return ""
+            return hashlib.md5(txt.encode("utf-8")).hexdigest()
+        except Exception:
+            return ""
+
+    def _wait_table_changed_fast(self, before_hash: str, timeout: int = 15, poll: float = 0.2) -> bool:
+        """
+        Polling curto (sem WebDriverWait pesado) esperando hash mudar.
+        """
+        end = time.time() + timeout
+        while time.time() < end:
+            now = self._tbody_hash()
+            if now and now != before_hash:
+                return True
+            time.sleep(poll)
+        return False
+
+    def _wait_table_refresh_fast(self, tbody_before, first_row_before, sig_before: str) -> None:
+        """
+        Versão otimizada: tenta hash primeiro, depois cai no refresh robusto antigo.
+        """
+        before_hash = self._tbody_hash()
+        # se o hash existe, tenta rápido (evita 25-30s sempre)
+        if before_hash:
+            if self._wait_table_changed_fast(before_hash, timeout=15, poll=0.2):
+                self._wait_results_present_or_empty()
+                self._log("Refresh (fast-hash) concluído.")
+                return
+
+        # fallback robusto
+        self._wait_table_refresh(tbody_before, first_row_before, sig_before)
 
     def _table_snapshot(self) -> Tuple[Optional[object], Optional[object], str]:
         tbody_el = None
@@ -312,15 +456,14 @@ class YahooScreenerPage:
 
     def _wait_table_refresh(self, tbody_before, first_row_before, sig_before: str) -> None:
         """
-        Após clique em Next (ou Apply), a tabela demora pra atualizar.
-        Esperamos sinais reais de re-render / mudança.
+        Fallback robusto (igual o seu), para quando hash/staleness não dão sinal.
         """
         self._log("Aguardando refresh da tabela...")
 
         if tbody_before is not None:
             try:
                 self._wait_short(25).until(EC.staleness_of(tbody_before))
-                self._log("✅ tbody stale (re-render).")
+                self._log("tbody stale (re-render).")
                 self._wait_results_present_or_empty()
                 return
             except TimeoutException:
@@ -329,17 +472,17 @@ class YahooScreenerPage:
         if first_row_before is not None:
             try:
                 self._wait_short(25).until(EC.staleness_of(first_row_before))
-                self._log("✅ first_row stale (re-render).")
+                self._log("first_row stale (re-render).")
                 self._wait_results_present_or_empty()
                 return
             except TimeoutException:
                 self._log("staleness(first_row) não ocorreu em 25s.")
 
         try:
-            self._wait_short(30).until(lambda d: self._page_signature() != sig_before)
-            self._log("✅ assinatura mudou.")
+            self._wait_short(20).until(lambda d: self._page_signature() != sig_before)
+            self._log("assinatura mudou.")
         except TimeoutException:
-            self._log("⚠️ assinatura não mudou em 30s (pode ser mesmo dataset/ordem).")
+            self._log("assinatura não mudou em 20s (pode ser mesmo dataset/ordem).")
 
         self._wait_results_present_or_empty()
         self._log("Refresh concluído (linhas ou empty).")
@@ -360,11 +503,15 @@ class YahooScreenerPage:
             self._log("First-page já desabilitado (já estamos na primeira).")
             return
 
+        before_hash = self._tbody_hash()
         tbody_before, first_row_before, sig_before = self._table_snapshot()
+
         self._log("Indo para primeira página (first-page)...")
         self._scroll_into_view(btn)
         self._safe_click(btn)
-        self._wait_table_refresh(tbody_before, first_row_before, sig_before)
+
+        if not self._wait_table_changed_fast(before_hash, timeout=15, poll=0.2):
+            self._wait_table_refresh(tbody_before, first_row_before, sig_before)
 
     # ------------------ misc helpers ------------------
 
@@ -378,9 +525,6 @@ class YahooScreenerPage:
     def _page_signature(self) -> str:
         rows = self.client.driver.find_elements(*Locators.TABLE_ROWS)[:3]
         return "\n".join(r.text for r in rows)
-
-    def _wait_page_signature_changed(self, before: str) -> None:
-        self.wait.until(lambda d: self._page_signature() != before)
 
     @staticmethod
     def _is_disabled(el) -> bool:
@@ -401,5 +545,6 @@ class YahooScreenerPage:
         except Exception:
             return
 
-    def _wait_short(self, seconds: int):
+    def _wait_short(self, seconds: int) -> WebDriverWait:
+        # cria um wait com o mesmo driver e timeout menor
         return self.wait.__class__(self.client.driver, seconds)
